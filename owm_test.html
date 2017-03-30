@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="871df4a1-0195-4da5-8ec4-5a33beabdcbd"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {"d7621d53-c5d9-42db-abb4-e0fc6cb10a8f":{"roots":{"references":[{"attributes":{},"id":"a9b3b587-a884-420c-b766-9c75f2205e08","type":"ToolEvents"},{"attributes":{"data_source":{"id":"e03e82d7-9215-46e8-82d2-09b82f225ae4","type":"ColumnDataSource"},"glyph":{"id":"a126a94d-be78-466d-9dd9-d9425420391c","type":"Circle"},"hover_glyph":null,"nonselection_glyph":null,"selection_glyph":null},"id":"af4f6ae8-ab75-4d04-a797-47f3a9f3712e","type":"GlyphRenderer"},{"attributes":{"callback":null},"id":"8ac60516-8d46-4ae4-90cf-791884cf3b5f","type":"DataRange1d"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"52302c00-253b-49c7-af43-410eb27c66f5","type":"HoverTool"}]},"id":"36dff2a0-f5f4-4f5e-9215-decf1910d39a","type":"Toolbar"},{"attributes":{"api_key":"AIzaSyCs3DbjLI4ruaQAcZSrZqA52xbHfMrblo8","map_options":{"lat":37,"lng":14.3612,"zoom":8},"plot_height":700,"plot_width":1000,"renderers":[{"id":"af4f6ae8-ab75-4d04-a797-47f3a9f3712e","type":"GlyphRenderer"}],"title":{"id":"5f8f8d4b-47f9-45cd-9ba8-a5efe3dcb0fe","type":"Title"},"tool_events":{"id":"a9b3b587-a884-420c-b766-9c75f2205e08","type":"ToolEvents"},"toolbar":{"id":"36dff2a0-f5f4-4f5e-9215-decf1910d39a","type":"Toolbar"},"webgl":true,"x_range":{"id":"8ac60516-8d46-4ae4-90cf-791884cf3b5f","type":"DataRange1d"},"y_range":{"id":"e84e1955-d1e2-444f-8a43-9d0cafe344b5","type":"DataRange1d"}},"id":"ed5e1868-be43-4428-855f-6d3b783d7ae6","type":"GMapPlot"},{"attributes":{"callback":null,"column_names":["humidity","lon","wind_speed","temp","name","lat"],"data":{"humidity":[87,87,87,82,87,95,65,58,65,65,65,82,82,82,82,66,71,71,66,81,81,58,58,81,71,30,71,35,35,35,35,35,35],"lat":[37.796638,37.664139,38.015839,37.68264,37.506931,37.49844,37.192638,37.10714,37.320839,37.35894,37.48774,37.998348,38.080051,38.115822,37.98365,37.080341,37.14864,37.23682,36.928242,37.385948,37.558849,36.84594,36.824242,36.911339,37.085152,37.236549,37.29805,37.28545,37.502129,37.661751,37.789459,37.72686,38.14756],"lon":[12.43518,12.58804,12.51077,12.79164,13.08399,13.26415,13.76496,13.94607,13.58876,13.85036,14.04497,12.95654,13.28854,13.35976,13.69555,14.23068,14.39128,14.5132,14.71719,14.36717,14.28917,14.77399,14.94779,15.1395,15.273,15.21969,14.84078,14.99959,15.08719,14.83478,14.83418,15.18769,15.21048],"name":["Marsala","Mazara del Vallo","Trapani","Castelvetrano","Sciacca","Ribera","Palma di Montechiaro","Licata","Agrigento","Canicatti","Caltanissetta","Alcamo","Monreale","Palermo","Termini Imerese","Gela","Niscemi","Caltagirone","Ragusa","Piazza Armerina","Enna","Modica","Rosolini","Avola","Siracusa","Augusta","Scordia","Lentini","Catania","Adrano","Bronte","Giarre","Barcellona-Pozzo di Gotto"],"temp":[14,14,14.5,13.53,15,16.55,12.25,13,12.25,12.25,12.25,13.59,13,13,13,13,13.67,13.66,13.68,12.35,12.36,12.43,12.46,12.35,13.63,17.07,13.63,16.19,17.17,16.52,16.43,15.94,18.42],"wind_speed":[3.1,3.1,2.6,3.1,2.6,5.1,2.65,2.1,2.65,2.65,2.65,3.1,3.1,3.1,3.1,2.1,1.5,1.5,2.1,1.5,1.5,2.1,2.1,1.5,1.5,5.7,1.5,5.7,5.7,5.7,5.7,5.7,5.7]}},"id":"e03e82d7-9215-46e8-82d2-09b82f225ae4","type":"ColumnDataSource"},{"attributes":{"callback":null,"plot":{"id":"ed5e1868-be43-4428-855f-6d3b783d7ae6","type":"GMapPlot"},"tooltips":[["name station","@name"],["long","@lon"],["lat","@lat"],["Wind speed","@wind_speed"],["Temperature","@temp"],["Humidity","@humidity"]]},"id":"52302c00-253b-49c7-af43-410eb27c66f5","type":"HoverTool"},{"attributes":{"callback":null},"id":"e84e1955-d1e2-444f-8a43-9d0cafe344b5","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"blue"},"line_color":{"value":"blue"},"size":{"units":"screen","value":50},"x":{"field":"lon"},"y":{"field":"lat"}},"id":"a126a94d-be78-466d-9dd9-d9425420391c","type":"Circle"},{"attributes":{"plot":null,"text":""},"id":"5f8f8d4b-47f9-45cd-9ba8-a5efe3dcb0fe","type":"Title"}],"root_ids":["ed5e1868-be43-4428-855f-6d3b783d7ae6"]},"title":"Bokeh Application","version":"0.12.4"}};
+              var render_items = [{"docid":"d7621d53-c5d9-42db-abb4-e0fc6cb10a8f","elementid":"871df4a1-0195-4da5-8ec4-5a33beabdcbd","modelid":"ed5e1868-be43-4428-855f-6d3b783d7ae6"}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

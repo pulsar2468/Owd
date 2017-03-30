@@ -2,6 +2,8 @@ import datetime
 import requests
 import time
 
+import owm_beta1
+
 
 def post_value():
     url = 'http://api.openweathermap.org/data/3.0/measurements?appid=e229425a7ad4dc9b361f341f7ce03904'
@@ -64,8 +66,8 @@ def create_station():
     payload = {
         "external_id": "P_test0",
         "name": "PalermoTestStation",
-        "latitude": 37.76,
-        "longitude": -122.43,
+        "latitude": 38.1156879,
+        "longitude": 13.3612,
         "altitude": 20
     }
 
@@ -76,11 +78,61 @@ def create_station():
     print(r.status_code,r.text)
 
 
+def get_value_from_rectangle():
+    url = 'http://api.openweathermap.org/data/2.5/box/city?appid=e229425a7ad4dc9b361f341f7ce03904'
+
+    payload = {
+        "bbox": "12.3,36.8,15.58,38.26,10", #rectangle of sicily long_left,lat_bottom_long_right_lat_top,zoom
+    }
+    # GET with params in URL
+    r = requests.get(url, params=payload)
+    c=r.json()
+
+    lon=[]
+    lat=[]
+    t=[]
+    id=[]
+    temp_max=[]
+    pressure=[]
+    temp=[]
+    humidity=[]
+    temp_min=[]
+    name=[]
+    wind_deg=[]
+    wind_speed=[]
+
+    for i in range(0,len(c["list"])-1):
+        lon.append(c["list"][i]["coord"]["Lon"])
+        lat.append(c["list"][i]["coord"]["Lat"])
+        id.append(c["list"][i]["id"])
+        temp_max.append(c["list"][i]["main"]["temp_max"])
+        pressure.append(c["list"][i]["main"]["pressure"])
+        temp.append(c["list"][i]["main"]["temp"])
+        humidity.append(c["list"][i]["main"]["humidity"])
+        temp_min.append(c["list"][i]["main"]["temp_min"])
+        name.append(c["list"][i]["name"])
+        wind_deg.append(c["list"][i]["wind"]["deg"])
+        wind_speed.append(c["list"][i]["wind"]["speed"])
+        t.append(datetime.datetime.fromtimestamp(c["list"][i]["dt"]))
+        #year.append(t.year)
+        #months=t.month
+        #day=t.day
+        #hour=t.hour
+        #minutes=t.minute
+        #seconds=t.second
+    return name, lon, lat,pressure, temp, humidity,wind_speed
+
+
 
 #create_station()
 #delete_stations()
 
 
 #post_value()
-get_value()
+name, lon, lat,pressure, temp, humidity,wind_speed=get_value_from_rectangle()
+owm_beta1.visual(name, lon, lat,pressure, temp, humidity,wind_speed)
 #get_stations()
+
+
+
+
