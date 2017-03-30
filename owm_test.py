@@ -113,14 +113,15 @@ def get_value_from_rectangle():
         name.append(c["list"][i]["name"])
         wind_deg.append(c["list"][i]["wind"]["deg"])
         wind_speed.append(c["list"][i]["wind"]["speed"])
-        t.append(datetime.datetime.fromtimestamp(c["list"][i]["dt"]))
+        x_t=c["list"][i]["dt"]
+        t.append((datetime.datetime.fromtimestamp(x_t)).ctime())
         #year.append(t.year)
         #months=t.month
         #day=t.day
         #hour=t.hour
         #minutes=t.minute
         #seconds=t.second
-    return name, lon, lat,pressure, temp, humidity,wind_speed
+    return name, lon, lat,pressure, temp, humidity,wind_speed,t
 
 
 
@@ -129,8 +130,8 @@ def get_value_from_rectangle():
 
 
 #post_value()
-name, lon, lat,pressure, temp, humidity,wind_speed=get_value_from_rectangle()
-owm_beta1.visual(name, lon, lat,pressure, temp, humidity,wind_speed)
+name, lon, lat,pressure, temp, humidity,wind_speed,t=get_value_from_rectangle()
+owm_beta1.visual(name, lon, lat,pressure, temp, humidity,wind_speed,t)
 #get_stations()
 
 

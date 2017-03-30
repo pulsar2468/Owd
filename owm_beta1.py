@@ -2,11 +2,14 @@
 from bokeh.plotting import show
 from bokeh.models import (
     GMapPlot, Range1d,
-    PanTool, WheelZoomTool, GMapOptions, HoverTool, SquareX, ColumnDataSource, Circle, DataRange1d)
+    PanTool, WheelZoomTool, GMapOptions, HoverTool, SquareX, ColumnDataSource, Circle, DataRange1d, String)
 
 
-def visual(name, lon, lat,pressure, temp, humidity,wind_speed):
-    map_options = GMapOptions(lat=37, lng=14.3612, zoom=8)
+def visual(name, lon, lat,pressure, temp, humidity,wind_speed,t):
+
+
+
+    map_options = GMapOptions(lat=37.6, lng=13.6, zoom=9)
 
     hover = HoverTool(
 
@@ -16,7 +19,8 @@ def visual(name, lon, lat,pressure, temp, humidity,wind_speed):
                 ("lat","@lat"),
                 ("Wind speed", "@wind_speed"),
                 ("Temperature", "@temp"),
-                ("Humidity", "@humidity")
+                ("Humidity", "@humidity"),
+                ("Detection Time", "@t")
 
             ]
         )
@@ -24,8 +28,8 @@ def visual(name, lon, lat,pressure, temp, humidity,wind_speed):
     plot = GMapPlot(
         x_range=DataRange1d(),
         y_range=DataRange1d(),
-        plot_width=1000,
-        plot_height=700,
+        plot_width=1300,
+        plot_height=800,
         map_options=map_options,
         webgl=True,
         api_key="AIzaSyCs3DbjLI4ruaQAcZSrZqA52xbHfMrblo8",
@@ -33,8 +37,13 @@ def visual(name, lon, lat,pressure, temp, humidity,wind_speed):
     )
 
 
-
-
+    #create an heatmap
+    color=[]
+    for i in temp:
+        if i < 12:
+            color.append("blue")
+        else:
+            color.append("red")
 
     source = ColumnDataSource(
         data=dict(
@@ -43,14 +52,16 @@ def visual(name, lon, lat,pressure, temp, humidity,wind_speed):
             name=name,
             temp=temp,
             humidity=humidity,
-            wind_speed=wind_speed
+            wind_speed=wind_speed,
+            t=t,
+            color=color
 
         )
     )
     #pan = PanTool()
     #wheel_zoom = WheelZoomTool()
     #circle = Circle(x=13.3612,y=13.3612,size=250, line_color='blue', fill_color='blue', fill_alpha=0.4)
-    circle= Circle(x="lon", y="lat", size=50, line_color='blue', fill_color='blue', fill_alpha=0.5)
+    circle= Circle(x="lon", y="lat", size=50, line_color='blue', fill_color="color", fill_alpha=0.5)
     plot.add_glyph(source,circle)
     plot.add_tools(hover)
     show(plot)
