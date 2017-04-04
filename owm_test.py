@@ -3,6 +3,7 @@ import requests
 import time
 
 import owm_beta1
+import test
 
 
 def post_value():
@@ -131,7 +132,8 @@ def get_value_from_rectangle():
 
 #post_value()
 name, lon, lat,pressure, temp, humidity,wind_speed,t=get_value_from_rectangle()
-owm_beta1.visual(name, lon, lat,pressure, temp, humidity,wind_speed,t)
+#owm_beta1.visual(name, lon, lat,pressure, temp, humidity,wind_speed,t)
+test.visual(name, lon, lat,pressure, temp, humidity,wind_speed,t)
 #get_stations()
 
 
