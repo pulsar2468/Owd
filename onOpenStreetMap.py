@@ -11,12 +11,12 @@ def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t):
         else:
             color = "red"
 
-        html = '<font face="Verdana" size="3" color="red">'  \
-               '<p>%s</p>' \
-               '<p>%s</p>' \
-               '<p>%s</p>' \
-               '<p>%s</p></font>'%(name,lat,lng,i_temp)
-        frame_html = folium.Html(html, script=True, width=50, height=100)
+        html = '<font face="Verdana" size="2" color="red">'  \
+               'Ws: %s<br>' \
+               'Lat: %s<br>' \
+               'Lon: %s<br>' \
+               'Temp: %s</font>'%(name,lat,lng,i_temp)
+        frame_html = folium.Html(html, script=True, width=100, height=80)
         popup = folium.Popup(frame_html)
 
         feature_group.add_child(folium.CircleMarker(location=[lat, lng], radius=30, popup=popup, fill_color=color))
