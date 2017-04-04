@@ -2,8 +2,10 @@ import datetime
 import requests
 import time
 
-import owm_beta1
-import test
+from geopy import Nominatim
+
+import onGmaps
+import onOpenStreetMap
 
 
 def post_value():
@@ -82,8 +84,11 @@ def create_station():
 def get_value_from_rectangle():
     url = 'http://api.openweathermap.org/data/2.5/box/city?appid=e229425a7ad4dc9b361f341f7ce03904'
 
+    geolocator = Nominatim()
+    location = geolocator.geocode("Sicily") #i get the center of city/region espress to lat/lon
+    bbox=str(location.longitude-2)+','+str(location.latitude-2)+','+str(location.longitude+2)+','+str(location.latitude+2)+','+str(10)
     payload = {
-        "bbox": "12.3,36.8,15.58,38.26,10", #rectangle of sicily long_left,lat_bottom_long_right_lat_top,zoom
+        "bbox": bbox #+-1 on coordinates, it's will move me for 111km in both directions
     }
     # GET with params in URL
     r = requests.get(url, params=payload)
@@ -133,7 +138,7 @@ def get_value_from_rectangle():
 #post_value()
 name, lon, lat,pressure, temp, humidity,wind_speed,t=get_value_from_rectangle()
 #owm_beta1.visual(name, lon, lat,pressure, temp, humidity,wind_speed,t)
-test.visual(name, lon, lat,pressure, temp, humidity,wind_speed,t)
+onOpenStreetMap.visual(name, lon, lat, pressure, temp, humidity, wind_speed, t)
 #get_stations()
 
 
