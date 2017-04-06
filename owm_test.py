@@ -4,7 +4,6 @@ import time
 
 from geopy import Nominatim
 
-import onGmaps
 import onOpenStreetMap
 
 

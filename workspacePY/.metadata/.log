@@ -2616,3 +2616,6 @@ java.nio.file.NoSuchFileException: /home/nataraja/Scrivania/workspacePY/mysite/m
 	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
 	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:176)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY de.anbos.eclipse.easyshell.plugin 1 0 2017-04-06 17:00:18.606
+!MESSAGE isExpectedCommandOutput: answer: >null<
