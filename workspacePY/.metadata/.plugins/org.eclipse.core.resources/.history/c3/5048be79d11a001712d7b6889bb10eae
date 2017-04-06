@@ -1,0 +1,21 @@
+from django.shortcuts import render, render_to_response
+from django.http import HttpResponse
+from django.template.context_processors import request
+
+ 
+#from .models import Question
+
+# Create your views here.
+def weather_test(request):
+    return HttpResponse("Test Success")
+
+
+def index(request):
+    latest_question_list= [] 
+    latest_question_list.append("hello")
+    latest_question_list.append("world")
+    context = {'latest_question_list': latest_question_list}
+    return render(request, 'weather/index.html', context) #he renders the template and the data with request http
+
+def get_result(request):
+    return render_to_response('/home/nataraja/Scrivania/OpenData/mthood.html')
