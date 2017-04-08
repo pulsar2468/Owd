@@ -1,15 +1,14 @@
 import sqlite3
 
 
-def history_table(name, lon, lat, pressure, temp, humidity, wind_speed, t, id):
+def history_table(name):
     conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
     c = conn.cursor()
     sql=""
 
     for i in name:
-        sql = sql +  'CREATE TABLE IF NOT EXISTS "%s" ("id" VARCHAR PRIMARY KEY, ' \
-          '"temp" FLOAT, "humidity" FLOAT, "wind_speed" FLOAT, ' \
-          '"detection_time" DATETIME);' %i
+        sql = sql +  'CREATE TABLE IF NOT EXISTS "%s" ("name" VARCHAR ,"temp" FLOAT, "humidity" FLOAT, "wind_speed" FLOAT, ' \
+          '"detection_time" DATETIME PRIMARY KEY);' %i
 
     sql=sql+'CREATE TABLE IF NOT EXISTS City ("id" VARCHAR PRIMARY KEY, "name" FLOAT, "lat" FLOAT, "lon" FLOAT);'
     c.executescript(sql)
@@ -48,10 +47,9 @@ def insert_history_city(name,temp, humidity, wind_speed, t, id):
     c = conn.cursor()
     sql = ""
 
-    for a1,b1,c1,d1,e1,f1 in zip(id,temp, humidity, wind_speed, t,name):
-        sql = sql + 'INSERT or IGNORE INTO "%s" VALUES ("%s",%f,%f,%f,"%s");' % (f1,a1,b1,c1,d1,e1)
+    for a1,b1,c1,d1,e1,f1 in zip(name,temp, humidity, wind_speed, t,name):
+        sql = sql + 'INSERT or IGNORE INTO "%s" VALUES ("%s",%f,%f,%f,"%s");' % (a1,f1,b1,c1,d1,e1)
 
-    sql = sql + 'CREATE TABLE IF NOT EXISTS City ("id" VARCHAR PRIMARY KEY, "name" FLOAT, "lat" FLOAT, "lon" FLOAT);'
     c.executescript(sql)
     conn.commit()
     conn.close()

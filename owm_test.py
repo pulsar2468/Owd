@@ -135,6 +135,11 @@ def get_value_from_rectangle():
 #post_value()
 #onOpenStreetMap.visual(name, lon, lat, pressure, temp, humidity, wind_speed, t)
 #get_stations()
+#name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
+
+#store_it.drop_table(name)
+#store_it.history_table(name)
+
 
 while(True):
     name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
@@ -142,10 +147,8 @@ while(True):
 
 #map to sqlite
 
-    #sql_script.history_table(name, lon, lat,pressure, temp, humidity,wind_speed,t,id)
-    #sql_script.drop_table(name)
-    store_it.insert_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id) #if exist IGNORE
-    store_it.insert_history_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id)#if exist IGNORE
-    time.sleep(900) #I get data for each 15 minutes and save them
+    store_it.insert_city(name, lon, lat, id) #if exist IGNORE
+    store_it.insert_history_city(name,temp, humidity, wind_speed, t, id)#if exist IGNORE
+    time.sleep(900) #I get data for each 30 minutes and save them
 
 
