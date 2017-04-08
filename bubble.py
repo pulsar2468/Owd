@@ -52,7 +52,6 @@ def get_forecast():
     return t,temp_max
 
 
-
 def name_station():
     geolocator = Nominatim()
     location = geolocator.geocode("Sicily")  # i get the center of city/region espress to lat/lon

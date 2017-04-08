@@ -25,7 +25,7 @@ SECRET_KEY = 'okw3z6*%a25((g@o&qtooa@fw%%rs&=r-y8@+)l%xz!o1k!&jb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','10.42.0.1'] #in this case, i will visible into my LAN
+ALLOWED_HOSTS = [] #in this case, i will visible into my LAN
 
 
 # Application definition

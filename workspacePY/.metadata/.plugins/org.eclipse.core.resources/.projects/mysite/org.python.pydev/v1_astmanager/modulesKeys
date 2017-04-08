@@ -1,3 +1,4 @@
 MODULES_MANAGER_V2
-mysite.weather.admin|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/admin.py
-mysite.weather.models|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/models.py
+__init__|/usr/lib/python3.5/sqlite3/__init__.py
+dbapi2|/usr/lib/python3.5/sqlite3/dbapi2.py
+dump|/usr/lib/python3.5/sqlite3/dump.py

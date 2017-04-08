@@ -11,6 +11,7 @@ from . import views
 urlpatterns = [
     url(r'^$', views.index),
     url(r'^data/$', views.get_result),
+    url(r'^history/$', views.history),
 
     #url(r'^(?P<question_id>[0-9]+)/$', views.details, name='details'), #by regular expression
     #url(r'^[0-9]+/$',views.test)

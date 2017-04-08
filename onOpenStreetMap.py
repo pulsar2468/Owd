@@ -1,4 +1,5 @@
 import folium
+import sqlite3
 
 
 def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t):
@@ -23,3 +24,5 @@ def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t):
 
     map_1.add_child(feature_group)
     map_1.save("mthood.html")
+
+
