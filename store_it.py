@@ -30,7 +30,7 @@ def drop_table(name):
     conn.close()
 
 
-def insert_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id):
+def insert_city(name, lon, lat, id):
    conn= sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
    c = conn.cursor()
    sql = ""
@@ -43,7 +43,7 @@ def insert_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id):
    conn.close()
 
 
-def insert_history_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id):
+def insert_history_city(name,temp, humidity, wind_speed, t, id):
     conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
     c = conn.cursor()
     sql = ""

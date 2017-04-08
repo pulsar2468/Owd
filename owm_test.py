@@ -1,8 +1,6 @@
 import datetime
 import requests
 import time
-import sqlite3
-
 from geopy import Nominatim
 
 import onOpenStreetMap
@@ -134,19 +132,20 @@ def get_value_from_rectangle():
 
 #create_station()
 #delete_stations()
-
-
 #post_value()
-name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
-#owm_beta1.visual(name, lon, lat,pressure, temp, humidity,wind_speed,t)
 #onOpenStreetMap.visual(name, lon, lat, pressure, temp, humidity, wind_speed, t)
 #get_stations()
 
+while(True):
+    name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
+
+
 #map to sqlite
 
-#sql_script.history_table(name, lon, lat,pressure, temp, humidity,wind_speed,t,id)
-#sql_script.drop_table(name)
-store_it.insert_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id)
-store_it.insert_history_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id)
+    #sql_script.history_table(name, lon, lat,pressure, temp, humidity,wind_speed,t,id)
+    #sql_script.drop_table(name)
+    store_it.insert_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id) #if exist IGNORE
+    store_it.insert_history_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id)#if exist IGNORE
+    time.sleep(900) #I get data for each 15 minutes and save them
 
 
