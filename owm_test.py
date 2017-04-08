@@ -1,10 +1,12 @@
 import datetime
 import requests
 import time
+import sqlite3
 
 from geopy import Nominatim
 
 import onOpenStreetMap
+import store_it
 
 
 def post_value():
@@ -106,7 +108,7 @@ def get_value_from_rectangle():
     wind_deg=[]
     wind_speed=[]
 
-    for i in range(0,len(c["list"])-1):
+    for i in range(0,len(c["list"])-1): #-1?
         lon.append(c["list"][i]["coord"]["Lon"])
         lat.append(c["list"][i]["coord"]["Lat"])
         id.append(c["list"][i]["id"])
@@ -126,7 +128,7 @@ def get_value_from_rectangle():
         #hour=t.hour
         #minutes=t.minute
         #seconds=t.second
-    return name, lon, lat,pressure, temp, humidity,wind_speed,t
+    return name, lon, lat,pressure, temp, humidity,wind_speed,t,id
 
 
 
@@ -135,11 +137,16 @@ def get_value_from_rectangle():
 
 
 #post_value()
-name, lon, lat,pressure, temp, humidity,wind_speed,t=get_value_from_rectangle()
+name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
 #owm_beta1.visual(name, lon, lat,pressure, temp, humidity,wind_speed,t)
-onOpenStreetMap.visual(name, lon, lat, pressure, temp, humidity, wind_speed, t)
+#onOpenStreetMap.visual(name, lon, lat, pressure, temp, humidity, wind_speed, t)
 #get_stations()
 
+#map to sqlite
 
+#sql_script.history_table(name, lon, lat,pressure, temp, humidity,wind_speed,t,id)
+#sql_script.drop_table(name)
+store_it.insert_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id)
+store_it.insert_history_city(name, lon, lat, pressure, temp, humidity, wind_speed, t, id)
 
 

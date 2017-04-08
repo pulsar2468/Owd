@@ -2619,3 +2619,23 @@ java.nio.file.NoSuchFileException: /home/nataraja/Scrivania/workspacePY/mysite/m
 
 !ENTRY de.anbos.eclipse.easyshell.plugin 1 0 2017-04-06 17:00:18.606
 !MESSAGE isExpectedCommandOutput: answer: >null<
+!SESSION 2017-04-08 11:09:39.405 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY de.anbos.eclipse.easyshell.plugin 1 0 2017-04-08 11:10:19.204
+!MESSAGE isExpectedCommandOutput: answer: >null<
+!SESSION 2017-04-08 11:45:38.614 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY de.anbos.eclipse.easyshell.plugin 1 0 2017-04-08 12:00:09.478
+!MESSAGE isExpectedCommandOutput: answer: >null<

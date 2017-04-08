@@ -1,11 +1,7 @@
-from django.shortcuts import render, render_to_response
+from django.shortcuts import render
 from django.http import HttpResponse
 from django.template.context_processors import request
 import sys
-
-
- 
-#from .models import Question
 
 # Create your views here.
 def weather_test(request):

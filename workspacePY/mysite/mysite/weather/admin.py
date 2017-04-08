@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+'''
+from .models import Weather_data
+
+admin.site.register(Weather_data)
+'''#for visibility to admin panel

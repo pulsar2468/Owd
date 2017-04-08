@@ -6,4 +6,10 @@
 		<item value="69" key="y"/>
 		<item value="492" key="height"/>
 	</section>
+	<section name="org.python.pydev.django.debug.ui.actions.DjangoCustomCommand.shell">
+		<item value="502" key="width"/>
+		<item value="434" key="x"/>
+		<item value="43" key="y"/>
+		<item value="532" key="height"/>
+	</section>
 </section>
