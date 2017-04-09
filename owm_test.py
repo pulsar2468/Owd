@@ -3,7 +3,6 @@ import requests
 import time
 from geopy import Nominatim
 
-import onOpenStreetMap
 import store_it
 
 
@@ -129,26 +128,28 @@ def get_value_from_rectangle():
     return name, lon, lat,pressure, temp, humidity,wind_speed,t,id
 
 
+#loop to get data
+def loop():
 
-#create_station()
-#delete_stations()
-#post_value()
-#onOpenStreetMap.visual(name, lon, lat, pressure, temp, humidity, wind_speed, t)
-#get_stations()
-#name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
+    #create_station()
+    #delete_stations()
+    #post_value()
+    #onOpenStreetMap.visual(name, lon, lat, pressure, temp, humidity, wind_speed, t)
+    #get_stations()
+    #name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
 
-#store_it.drop_table(name)
-#store_it.history_table(name)
-
-
-while(True):
-    name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
+    #store_it.drop_table(name)
+    #store_it.history_table(name)
 
 
-#map to sqlite
+    while(True):
+        name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
 
-    store_it.insert_city(name, lon, lat, id) #if exist IGNORE
-    store_it.insert_history_city(name,temp, humidity, wind_speed, t, id)#if exist IGNORE
-    time.sleep(900) #I get data for each 30 minutes and save them
+
+    #map to sqlite
+
+        store_it.insert_city(name, lon, lat, id) #if exist IGNORE
+        store_it.insert_history_city(name,temp, humidity, wind_speed, t, id)#if exist IGNORE
+        time.sleep(900) #I get data for each 30 minutes and save them
 
 

@@ -20,11 +20,12 @@ def index(request):
     context = {'name_city': name_city}
     return render(request, 'weather/home.html',context) #he renders the template and the data with request http
 
-def get_result(request):
+
+def real_time(request):
     sys.path.insert(0, "/home/nataraja/Scrivania/OpenData")
-    #import onOpenStreetMap
-    #import owm_test
-    HtmlFile = open('/home/nataraja/Scrivania/OpenData/workspacePY/mthood.html', 'r', encoding='utf-8')
+    import onOpenStreetMap
+    onOpenStreetMap.real_time()
+    HtmlFile = open('/home/nataraja/Scrivania/OpenData/workspacePY/real_timeMap.html', 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     return HttpResponse(source_code)
 
