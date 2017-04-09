@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41fe4d28-3e47-4d5b-8b94-6051e46ad40a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.history/34/30239453cb1a001712d7b6889bb10eae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.history/40/709b41cacb1a001712d7b6889bb10eae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.history/8a/006daeb5cb1a001712d7b6889bb10eae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.history/98/90b507ddcc1a001712d7b6889bb10eae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.history/b1/60b2c904cb1a001712d7b6889bb10eae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.history/cf/3060c2d8cb1a001712d7b6889bb10eae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.history/f/603fce66cd1a001712d7b6889bb10eae" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/39/f4/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/39/f4/history.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/history.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onOpenStreetMap.py" afterPath="$PROJECT_DIR$/onOpenStreetMap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.log" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/1.v1_sys_astdelta" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/1.v1_sys_astdelta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/2.v1_sys_astdelta" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/2.v1_sys_astdelta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/3.v1_sys_astdelta" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/3.v1_sys_astdelta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/version.ini" afterPath="$PROJECT_DIR$/workspacePY/.metadata/version.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/templates/weather/index.html" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/templates/weather/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/urls.py" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/views.py" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/views.py" />
     </list>
     <ignored path="OpenData.iws" />
@@ -92,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/store_it.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
                 <element signature="e#553#815#0" expanded="false" />
                 <element signature="e#858#1145#0" expanded="false" />
@@ -495,7 +480,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17700455" sideWeight="0.48705882" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
@@ -1138,7 +1122,7 @@
     <entry file="file://$PROJECT_DIR$/store_it.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#553#815#0" expanded="false" />
             <element signature="e#858#1145#0" expanded="false" />
