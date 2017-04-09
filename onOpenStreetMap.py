@@ -1,5 +1,4 @@
 import folium
-import sqlite3
 
 
 def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t):

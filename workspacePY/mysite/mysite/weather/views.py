@@ -10,7 +10,16 @@ def weather_test(request):
 
 
 def index(request):
-    return render(request, 'weather/index.html') #he renders the template and the data with request http
+    name_city=[]
+    conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
+    c = conn.cursor()
+    sql='SELECT City.name FROM City'
+    for row in c.execute(sql):
+        name_city.append(row[0])
+    print(name_city)
+    conn.close()
+    context = {'name_city': name_city}
+    return render(request, 'weather/index.html',context) #he renders the template and the data with request http
 
 def get_result(request):
     sys.path.insert(0, "/home/nataraja/Scrivania/OpenData")
@@ -25,10 +34,13 @@ def get_result(request):
 
 
 def history(request):
+    response=request.GET.get('name', '') #parameters name=city, otherwise null
     latest_list= [] 
     conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
     c = conn.cursor()
-    sql = 'SELECT City.id,Palermo.name,Palermo.detection_time,City.lat,City.lon,Palermo.temp,Palermo.humidity,Palermo.wind_speed FROM Palermo,City WHERE City.name=Palermo.name'
+    sql = 'SELECT City.id,"%s".name,"%s".detection_time,'\
+    'City.lat,City.lon,"%s".temp,"%s".humidity,"%s".wind_speed '\
+    'FROM %s,City WHERE City.name="%s".name'%(response,response,response,response,response,response,response)
     for row in c.execute(sql):
         latest_list.append(row)
     conn.close()
