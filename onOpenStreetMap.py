@@ -1,12 +1,10 @@
 import folium
 import sqlite3
-from bokeh.charts import Line
-from bokeh.io import show
-from bokeh.plotting import figure
 import datetime
 
+from bokeh.models import VBox
+from bokeh.plotting import figure
 import owm_test
-from math import sin, pi
 from bokeh.resources import CDN
 from bokeh.embed import file_html
 
@@ -45,9 +43,12 @@ def real_time():
     visual(name, lon, lat, pressure, temp, humidity, wind_speed, t, id)
 
 
-
-def one_plot(response): #response=name_city
-    latest_list=[]
+def schema(response):
+    temp = []
+    dT = []
+    wind=[]
+    hum=[]
+    latest_list = []
     conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
     c = conn.cursor()
     sql = 'SELECT City.id,''"%s".name,"%s".detection_time,' \
@@ -58,15 +59,23 @@ def one_plot(response): #response=name_city
         latest_list.append(row)
     conn.close()
 
-    temp=[]
-    dT=[]
-    for i in range(0,len(latest_list)):
-        dT.append(datetime.datetime.strptime(latest_list[i][2],"%a %b %d %H:%M:%S %Y"))
+    for i in range(0, len(latest_list)):
+        dT.append(datetime.datetime.strptime(latest_list[i][2], "%a %b %d %H:%M:%S %Y"))
         temp.append(latest_list[i][5])
+        hum.append(latest_list[i][6])
+        wind.append(latest_list[i][7])
 
-    p = figure(title="line", plot_width=300, plot_height=300,x_axis_type="datetime")
-    p.line([i.date() for i in dT], temp, color="red")
-    html = file_html(p,CDN,"Plot")
-    #show(p)
 
+    p1 = figure(width=800, height=300, tools='pan,box_zoom,reset',x_axis_type="datetime")
+    p1.line(dT,temp)
+
+    p2 = figure(width=800, height=300, tools='pan,box_zoom,reset',x_axis_type="datetime")
+    p2.line(dT,hum)
+
+    p3 = figure(width=800, height=300, tools='pan,box_zoom,reset', x_axis_type="datetime")
+    p3.line(dT, wind)
+
+    p=VBox(p1,p2,p3)
+    html=file_html(p,CDN,"MyPlot")
     return html
+

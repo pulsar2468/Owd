@@ -154,11 +154,9 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_2ub3QxqyEeeCQZjMqn7RSQ" elementId="org.python.pydev.navigator.view" ref="_2uYz8BqyEeeCQZjMqn7RSQ"/>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_2ub3RBqyEeeCQZjMqn7RSQ" containerData="8119" selectedElement="_2ub3RhqyEeeCQZjMqn7RSQ">
-              <children xsi:type="advanced:Placeholder" xmi:id="_2ub3RRqyEeeCQZjMqn7RSQ" elementId="org.eclipse.ui.editorss" containerData="5545" ref="_0lqUQBqvEee_Oat7Odg7wQ"/>
-              <children xsi:type="basic:PartStack" xmi:id="_2ub3RhqyEeeCQZjMqn7RSQ" elementId="bottom" containerData="4455" selectedElement="_2ub3SBqyEeeCQZjMqn7RSQ">
+              <children xsi:type="advanced:Placeholder" xmi:id="_2ub3RRqyEeeCQZjMqn7RSQ" elementId="org.eclipse.ui.editorss" containerData="9000" ref="_0lqUQBqvEee_Oat7Odg7wQ"/>
+              <children xsi:type="basic:PartStack" xmi:id="_2ub3RhqyEeeCQZjMqn7RSQ" elementId="bottom" containerData="1000" selectedElement="_2ub3SBqyEeeCQZjMqn7RSQ">
                 <tags>General</tags>
-                <tags>active</tags>
-                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_2ub3RxqyEeeCQZjMqn7RSQ" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_0l16cBqvEee_Oat7Odg7wQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_2ub3SBqyEeeCQZjMqn7RSQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_0l16cRqvEee_Oat7Odg7wQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_2ub3SRqyEeeCQZjMqn7RSQ" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_0l16chqvEee_Oat7Odg7wQ"/>
@@ -200,9 +198,11 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_0lqUQBqvEee_Oat7Odg7wQ" elementId="org.eclipse.ui.editorss" selectedElement="_0lqUQRqvEee_Oat7Odg7wQ">
-      <children xsi:type="basic:PartStack" xmi:id="_0lqUQRqvEee_Oat7Odg7wQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_DcyFQBrLEee_sscaVAS_kg">
+      <children xsi:type="basic:PartStack" xmi:id="_0lqUQRqvEee_Oat7Odg7wQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_KRX9UB0iEeeDIIGZoCNeFA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
+        <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_BlUPUBq1EeeCQZjMqn7RSQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="urls (mysite)" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;urls.py&quot; partName=&quot;urls (mysite)&quot; title=&quot;urls (mysite)&quot; tooltip=&quot;mysite/mysite/mysite/urls.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/mysite/urls.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;814&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -210,13 +210,13 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_VWhBkBq4Eee_sscaVAS_kg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="urls (weather)" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;urls.py&quot; partName=&quot;urls (weather)&quot; title=&quot;urls (weather)&quot; tooltip=&quot;mysite/mysite/weather/urls.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/urls.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;285&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;urls.py&quot; partName=&quot;urls (weather)&quot; title=&quot;urls (weather)&quot; tooltip=&quot;mysite/mysite/weather/urls.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/urls.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;9&quot; selectionOffset=&quot;255&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_DcyFQBrLEee_sscaVAS_kg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="views" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;views.py&quot; partName=&quot;views&quot; title=&quot;views&quot; tooltip=&quot;mysite/mysite/weather/views.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/views.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2406&quot; selectionTopPixel=&quot;754&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;views.py&quot; partName=&quot;views&quot; title=&quot;views&quot; tooltip=&quot;mysite/mysite/weather/views.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/views.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2287&quot; selectionTopPixel=&quot;540&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
@@ -234,16 +234,18 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_n3SsAByjEee2RpQLgdruwA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="data_history.html" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;data_history.html&quot; partName=&quot;data_history.html&quot; title=&quot;data_history.html&quot; tooltip=&quot;mysite/mysite/weather/templates/weather/data_history.html&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/templates/weather/data_history.html&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;367&quot; selectionOffset=&quot;107&quot; selectionTopPixel=&quot;52&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;data_history.html&quot; partName=&quot;data_history.html&quot; title=&quot;data_history.html&quot; tooltip=&quot;mysite/mysite/weather/templates/weather/data_history.html&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/templates/weather/data_history.html&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;367&quot; selectionOffset=&quot;107&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.ui.DefaultTextEditor</tags>
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_KRX9UB0iEeeDIIGZoCNeFA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="home.html" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;home.html&quot; partName=&quot;home.html&quot; title=&quot;home.html&quot; tooltip=&quot;mysite/mysite/weather/templates/weather/home.html&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/templates/weather/home.html&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1540&quot; selectionTopPixel=&quot;511&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;home.html&quot; partName=&quot;home.html&quot; title=&quot;home.html&quot; tooltip=&quot;mysite/mysite/weather/templates/weather/home.html&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/templates/weather/home.html&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2344&quot; selectionTopPixel=&quot;877&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.ui.DefaultTextEditor</tags>
           <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -313,8 +315,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_swz7EBqzEeeCQZjMqn7RSQ" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -410,13 +410,13 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0gYysBqvEee_Oat7Odg7wQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_KnTIwB3MEeePDvPqytTh2w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0MyhTRqvEee_Oat7Odg7wQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9PgcEB4qEeetd7i2zFXZig" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0MyhTRqvEee_Oat7Odg7wQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0gYysRqvEee_Oat7Odg7wQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_0gYyshqvEee_Oat7Odg7wQ" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_R1OxgBrLEee_sscaVAS_kg" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_R1OxgBrLEee_sscaVAS_kg" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2ujMABqyEeeCQZjMqn7RSQ" elementId="com.python.pydev.navigate.actionSet">
@@ -440,7 +440,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0gZZwBqvEee_Oat7Odg7wQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_KnWzIB3MEeePDvPqytTh2w" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0MwsGxqvEee_Oat7Odg7wQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9PktgB4qEeetd7i2zFXZig" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0MwsGxqvEee_Oat7Odg7wQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0gZZwRqvEee_Oat7Odg7wQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2494,7 +2494,7 @@
   <addons xmi:id="_0MPHshqvEee_Oat7Odg7wQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_0MPHsxqvEee_Oat7Odg7wQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_0MV1UBqvEee_Oat7Odg7wQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_KTQLYR3MEeePDvPqytTh2w" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_0MoJMBqvEee_Oat7Odg7wQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_0MoJMRqvEee_Oat7Odg7wQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

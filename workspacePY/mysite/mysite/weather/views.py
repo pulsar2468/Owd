@@ -65,6 +65,6 @@ def all_plot(request):
     conn.close()
     context = {'list': latest_list}
     '''
-    htmlResponse=onOpenStreetMap.one_plot('Palermo')
+    htmlResponse=onOpenStreetMap.schema(response)
     return HttpResponse(htmlResponse)
     
