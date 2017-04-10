@@ -1,5 +1,14 @@
 import folium
+import sqlite3
+from bokeh.charts import Line
+from bokeh.io import show
+from bokeh.plotting import figure
+import datetime
+
 import owm_test
+from math import sin, pi
+from bokeh.resources import CDN
+from bokeh.embed import file_html
 
 def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t,id):
     map_1 = folium.Map(location=[37.57, 13.92], zoom_start=8, tiles='stamenwatercolor')
@@ -35,3 +44,29 @@ def real_time():
     name, lon, lat, pressure, temp, humidity, wind_speed, t, id = owm_test.get_value_from_rectangle()
     visual(name, lon, lat, pressure, temp, humidity, wind_speed, t, id)
 
+
+
+def one_plot(response): #response=name_city
+    latest_list=[]
+    conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
+    c = conn.cursor()
+    sql = 'SELECT City.id,''"%s".name,"%s".detection_time,' \
+          'City.lat,City.lon,"%s".temp,"%s".humidity,"%s".wind_speed ' \
+          'FROM "%s",City WHERE City.name="%s".name' % (
+          response, response, response, response, response, response, response)
+    for row in c.execute(sql):
+        latest_list.append(row)
+    conn.close()
+
+    temp=[]
+    dT=[]
+    for i in range(0,len(latest_list)):
+        dT.append(datetime.datetime.strptime(latest_list[i][2],"%a %b %d %H:%M:%S %Y"))
+        temp.append(latest_list[i][5])
+
+    p = figure(title="line", plot_width=300, plot_height=300,x_axis_type="datetime")
+    p.line([i.date() for i in dT], temp, color="red")
+    html = file_html(p,CDN,"Plot")
+    #show(p)
+
+    return html
