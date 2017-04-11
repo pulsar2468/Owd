@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41fe4d28-3e47-4d5b-8b94-6051e46ad40a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/0.v1_sys_astdelta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/1.v1_sys_astdelta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/2.v1_sys_astdelta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/3.v1_sys_astdelta" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onOpenStreetMap.py" afterPath="$PROJECT_DIR$/onOpenStreetMap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/com.python.pydev.analysis/python_v1_93lbdo62cifm9olokixj47cql/python.pydevsysteminfo" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/com.python.pydev.analysis/python_v1_93lbdo62cifm9olokixj47cql/python.pydevsysteminfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/modulesKeys" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/modulesKeys" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/version.ini" afterPath="$PROJECT_DIR$/workspacePY/.metadata/version.ini" />
     </list>
     <ignored path="OpenData.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +59,8 @@
       <file leaf-file-name="onOpenStreetMap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/onOpenStreetMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="102" column="54" lean-forward="false" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
+            <state relative-caret-position="135">
+              <caret line="97" column="58" lean-forward="false" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#389#1374#0" expanded="false" />
@@ -1102,8 +1092,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onOpenStreetMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="102" column="54" lean-forward="false" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
+        <state relative-caret-position="135">
+          <caret line="97" column="58" lean-forward="false" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#389#1374#0" expanded="false" />

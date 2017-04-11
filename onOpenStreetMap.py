@@ -47,7 +47,6 @@ def real_time():
 
 
 def schema(response):
-    locale.setlocale(locale.LC_ALL, 'en_US.utf8')
     temp = []
     dT = []
     wind=[]
@@ -70,7 +69,6 @@ def schema(response):
         hum.append(latest_list[i][6])
         wind.append(latest_list[i][7])
 
-
     p1 = figure(width=800, height=300, tools='pan,box_zoom,reset',x_axis_type="datetime")
     p1.line(dT,temp)
 
@@ -89,18 +87,20 @@ def schema(response):
 
     #Creation dataTable of history city
     data = dict(
-        dates=dT,
+        dates=[i.ctime() for i in dT],
         temperature=temp,
-        humidity=hum
+        humidity=hum,
+        wind=wind
     )
     source = ColumnDataSource(data)
 
     columns = [
-        TableColumn(field="dates", title="Date"),
+        TableColumn(field="dates", title="Date", width=300),
         TableColumn(field="temperature", title="Temperature"),
-        TableColumn(field="humidity", title="Humidity")
+        TableColumn(field="humidity", title="Humidity"),
+        TableColumn(field="wind", title="Wind_speed m/s")
     ]
-    data_table = DataTable(source=source, columns=columns, width=400, height=280)
+    data_table = DataTable(source=source, columns=columns, width=800, height=280)
 
     p=VBox(p1,p2,p4,data_table)
     html=file_html(p,CDN)
