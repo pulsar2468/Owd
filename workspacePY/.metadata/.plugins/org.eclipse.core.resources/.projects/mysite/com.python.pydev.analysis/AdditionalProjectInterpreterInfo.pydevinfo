@@ -11,22 +11,17 @@ __init__|1479410374000000000|/usr/lib/python3.5/sqlite3/__init__.py
 1=dump
 -- END DICTIONARY
 -- START TREE 1
-15
+10
 _it|1|_iterdump!10@
-all|0|
 api|1|apilevel!19@
 bin|1|Binary!19@
-dat|2|Date!19@DateFromTicks!18@
-his|0|
-ind|0|
+dat|2|DateFromTicks!18@Date!19@
 par|1|paramstyle!19@
-rea|0|
 reg|1|register_adapters_and_converters!18@
 sql|1|sqlite_version_info!19@
 thr|1|threadsafety!19@
-tim|4|Time!19@Timestamp!19@TimestampFromTicks!18@TimeFromTicks!18@
+tim|4|Time!19@TimestampFromTicks!18@Timestamp!19@TimeFromTicks!18@
 ver|1|version_info!19@
-wea|0|
 -- END TREE
 -- START TREE 2
 0

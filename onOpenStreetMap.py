@@ -5,7 +5,7 @@ import sqlite3
 import datetime
 
 from bokeh.palettes import mpl
-from bokeh.models import VBox, ColumnDataSource, TableColumn, DataTable, DateFormatter, NumberFormatter
+from bokeh.models import VBox, ColumnDataSource, TableColumn, DataTable, DateFormatter, NumberFormatter, BoxAnnotation
 from bokeh.plotting import figure
 import owm_test
 from bokeh.resources import CDN
@@ -63,24 +63,50 @@ def schema(response):
     conn.close()
 
     for i in range(0, len(latest_list)):
-        print(latest_list[i][2])
         dT.append(datetime.datetime.strptime(latest_list[i][2], "%a %b %d %H:%M:%S %Y"))
         temp.append(latest_list[i][5])
         hum.append(latest_list[i][6])
         wind.append(latest_list[i][7])
 
+    #Plot 1
     p1 = figure(width=800, height=300, tools='pan,box_zoom,reset',x_axis_type="datetime")
     p1.line(dT,temp)
+    p1.title = "Temperature"
+    p1.xaxis.axis_label = 'Time'
+    p1.yaxis.axis_label = 'Value'
+    low_box = BoxAnnotation(plot=p1, top=15, fill_alpha=0.4, fill_color='#084594')
+    mid_box = BoxAnnotation(plot=p1, bottom=15, top=23, fill_alpha=0.4, fill_color='#FBA40A')
+    high_box = BoxAnnotation(plot=p1, bottom=23, fill_alpha=0.5, fill_color='red')
+    p1.renderers.extend([low_box,mid_box, high_box])
+    p1.logo=None
+
+
+
 
     p2 = figure(width=800, height=300, tools='pan,box_zoom,reset',x_axis_type="datetime")
     p2.line(dT,hum)
+    p2.title = "Humidity"
+    p2.xaxis.axis_label = 'Time'
+    p2.yaxis.axis_label = 'Value'
+    p2.logo=None
+
+
 
     p3 = figure(width=800, height=300, tools='pan,box_zoom,reset', x_axis_type="datetime")
     p3.line(dT, wind)
+    p3.title = "Wind Speed"
+    p3.xaxis.axis_label = 'Time'
+    p3.yaxis.axis_label = 'Value'
+    p3.logo=None
+
+
 
     p4 = figure(width=800, height=300, tools='pan,box_zoom,reset', x_axis_type="datetime")
     p4.multi_line([dT,dT,dT], [temp,hum,wind],line_color=['#0C0786', '#CA4678', '#EFF821'])
-
+    p4.title = "All"
+    p4.xaxis.axis_label = 'Time'
+    p4.yaxis.axis_label = 'Value'
+    p4.logo=None
 
 
 
