@@ -1,8 +1,11 @@
+import locale
+
 import folium
 import sqlite3
 import datetime
 
-from bokeh.models import VBox
+from bokeh.palettes import mpl
+from bokeh.models import VBox, ColumnDataSource, TableColumn, DataTable, DateFormatter, NumberFormatter
 from bokeh.plotting import figure
 import owm_test
 from bokeh.resources import CDN
@@ -44,6 +47,7 @@ def real_time():
 
 
 def schema(response):
+    locale.setlocale(locale.LC_ALL, 'en_US.utf8')
     temp = []
     dT = []
     wind=[]
@@ -60,6 +64,7 @@ def schema(response):
     conn.close()
 
     for i in range(0, len(latest_list)):
+        print(latest_list[i][2])
         dT.append(datetime.datetime.strptime(latest_list[i][2], "%a %b %d %H:%M:%S %Y"))
         temp.append(latest_list[i][5])
         hum.append(latest_list[i][6])
@@ -75,7 +80,29 @@ def schema(response):
     p3 = figure(width=800, height=300, tools='pan,box_zoom,reset', x_axis_type="datetime")
     p3.line(dT, wind)
 
-    p=VBox(p1,p2,p3)
-    html=file_html(p,CDN,"MyPlot")
+    p4 = figure(width=800, height=300, tools='pan,box_zoom,reset', x_axis_type="datetime")
+    p4.multi_line([dT,dT,dT], [temp,hum,wind],line_color=['#0C0786', '#CA4678', '#EFF821'])
+
+
+
+
+
+    #Creation dataTable of history city
+    data = dict(
+        dates=dT,
+        temperature=temp,
+        humidity=hum
+    )
+    source = ColumnDataSource(data)
+
+    columns = [
+        TableColumn(field="dates", title="Date"),
+        TableColumn(field="temperature", title="Temperature"),
+        TableColumn(field="humidity", title="Humidity")
+    ]
+    data_table = DataTable(source=source, columns=columns, width=400, height=280)
+
+    p=VBox(p1,p2,p4,data_table)
+    html=file_html(p,CDN)
     return html
 
