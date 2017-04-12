@@ -1,3 +1,4 @@
+import json
 import locale
 
 import folium
@@ -5,11 +6,13 @@ import sqlite3
 import datetime
 
 from bokeh.palettes import mpl
-from bokeh.models import VBox, ColumnDataSource, TableColumn, DataTable, DateFormatter, NumberFormatter, BoxAnnotation
+from bokeh.models import VBox, ColumnDataSource, TableColumn, DataTable, DateFormatter, NumberFormatter, BoxAnnotation, \
+    Button, PreText
 from bokeh.plotting import figure
 import owm_test
 from bokeh.resources import CDN
 from bokeh.embed import file_html
+
 
 def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t,id):
     map_1 = folium.Map(location=[37.57, 13.92], zoom_start=8, tiles='stamenwatercolor')
@@ -39,11 +42,14 @@ def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t,id):
     map_1.save("real_timeMap.html")
 
 
-
-
 def real_time():
     name, lon, lat, pressure, temp, humidity, wind_speed, t, id = owm_test.get_value_from_rectangle()
     visual(name, lon, lat, pressure, temp, humidity, wind_speed, t, id)
+
+
+def on_click(data):
+    print('Cvs: ',data)
+
 
 
 def schema(response):
@@ -107,7 +113,8 @@ def schema(response):
     p4.xaxis.axis_label = 'Time'
     p4.yaxis.axis_label = 'Value'
     p4.logo=None
-
+    p4.legend.location = "top_left"
+    p4.legend.click_policy = "hide"
 
 
 
@@ -128,7 +135,10 @@ def schema(response):
     ]
     data_table = DataTable(source=source, columns=columns, width=800, height=280)
 
-    p=VBox(p1,p2,p4,data_table)
+    #button = Button(label="Download it!", button_type="success",clicks=on_click(latest_list))
+    pre = PreText(text=(json.dumps({'results': latest_list})), width=800, height=1000)
+
+    p=VBox(p1,p2,p4,data_table,pre)
     html=file_html(p,CDN)
     return html
 
