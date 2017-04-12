@@ -118,7 +118,7 @@ def get_value_from_rectangle():
         wind_deg.append(c["list"][i]["wind"]["deg"])
         wind_speed.append(c["list"][i]["wind"]["speed"])
         x_t=c["list"][i]["dt"]
-        t.append((datetime.datetime.fromtimestamp(x_t)).ctime())
+        t.append((datetime.datetime.fromtimestamp(x_t)))
         #year.append(t.year)
         #months=t.month
         #day=t.day

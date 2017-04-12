@@ -10,9 +10,14 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index),
-    url(r'^data/$', views.real_time),
-    #url(r'^history/$', views.history, name='history'),
-    url(r'^all_plot/$', views.all_plot),
+    url(r'^weather/data/$', views.real_time),
+    url(r'^weather/api1_0/$', views.api1_0),
+    url(r'^weather/all_plot/$', views.all_plot),
+    url(r'^weather/api1_0/history/$', views.history),
+    url(r'^weather/api1_0/city_list/$',views.city_list),
+    url(r'^weather/api1_0/getSingleData/$', views.getSingleData),
+
+    
 
     #url(r'^(?P<question_id>[0-9]+)/$', views.details, name='details'), #by regular expression
     #url(r'^[0-9]+/$',views.test)

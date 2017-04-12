@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41fe4d28-3e47-4d5b-8b94-6051e46ad40a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/d/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/d/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/39/f4/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/39/f4/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/39/f4/properties.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/39/f4/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onOpenStreetMap.py" afterPath="$PROJECT_DIR$/onOpenStreetMap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/owm_test.py" afterPath="$PROJECT_DIR$/owm_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.log" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/org.python.pydev/v1_astmanager/modulesKeys" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/org.python.pydev/v1_astmanager/modulesKeys" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/org.python.pydev/v1_astmanager/pythonpath" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/org.python.pydev/v1_astmanager/pythonpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/version.ini" afterPath="$PROJECT_DIR$/workspacePY/.metadata/version.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/.pydevproject" afterPath="$PROJECT_DIR$/workspacePY/mysite/.pydevproject" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/mysite/urls.py" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/mysite/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/urls.py" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/views.py" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/views.py" />
     </list>
     <ignored path="OpenData.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +44,8 @@
       <file leaf-file-name="owm_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owm_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1314">
-              <caret line="152" column="69" lean-forward="false" selection-start-line="152" selection-start-column="69" selection-end-line="152" selection-end-column="69" />
+            <state relative-caret-position="-252">
+              <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#113#510#0" expanded="false" />
@@ -38,7 +53,6 @@
                 <element signature="e#1395#1577#0" expanded="false" />
                 <element signature="e#1607#1835#0" expanded="false" />
                 <element signature="e#1864#2294#0" expanded="false" />
-                <element signature="e#4011#4689#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -47,13 +61,12 @@
       <file leaf-file-name="store_it.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store_it.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="306">
+              <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
               <folding>
                 <element signature="e#46#524#0" expanded="false" />
                 <element signature="e#553#815#0" expanded="false" />
                 <element signature="e#858#1145#0" expanded="false" />
-                <element signature="e#1217#1557#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -62,8 +75,8 @@
       <file leaf-file-name="onOpenStreetMap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/onOpenStreetMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="138" column="58" lean-forward="false" selection-start-line="138" selection-start-column="58" selection-end-line="138" selection-end-column="58" />
+            <state relative-caret-position="750">
+              <caret line="135" column="20" lean-forward="false" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#440#1425#0" expanded="false" />
@@ -117,8 +130,8 @@
         <option value="$PROJECT_DIR$/sql_script.py" />
         <option value="$PROJECT_DIR$/store_it.py" />
         <option value="$PROJECT_DIR$/bubble.py" />
-        <option value="$PROJECT_DIR$/owm_test.py" />
         <option value="$PROJECT_DIR$/applet.py" />
+        <option value="$PROJECT_DIR$/owm_test.py" />
         <option value="$PROJECT_DIR$/onOpenStreetMap.py" />
       </list>
     </option>
@@ -144,6 +157,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,8 +173,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,16 +462,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591528" sideWeight="0.48705882" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20196672" sideWeight="0.48705882" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3860465" sideWeight="0.50292826" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20545746" sideWeight="0.5529501" order="11" side_tool="true" content_ui="tabs" x="0" y="285" width="1366" height="221" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40770465" sideWeight="0.4409985" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26484752" sideWeight="0.43494704" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40770465" sideWeight="0.5590015" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26484752" sideWeight="0.5650529" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36276084" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -490,7 +504,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -506,7 +520,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -541,7 +554,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -564,7 +576,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -587,7 +598,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,7 +620,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -633,7 +642,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,7 +664,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -679,7 +686,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,7 +708,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -732,7 +737,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,7 +766,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -785,7 +788,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -801,7 +803,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -817,7 +818,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -833,7 +833,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -849,7 +848,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -865,7 +863,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -881,7 +878,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -897,7 +893,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,7 +908,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -929,7 +923,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -945,7 +938,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -961,7 +953,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -977,7 +968,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -993,7 +983,6 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1058,21 +1047,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/store_it.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
             <element signature="e#46#524#0" expanded="false" />
             <element signature="e#553#815#0" expanded="false" />
             <element signature="e#858#1145#0" expanded="false" />
-            <element signature="e#1217#1557#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/owm_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="152" column="69" lean-forward="false" selection-start-line="152" selection-start-column="69" selection-end-line="152" selection-end-column="69" />
+        <state relative-caret-position="-252">
+          <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <element signature="e#113#510#0" expanded="false" />
@@ -1080,15 +1068,14 @@
             <element signature="e#1395#1577#0" expanded="false" />
             <element signature="e#1607#1835#0" expanded="false" />
             <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#4011#4689#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/onOpenStreetMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="138" column="58" lean-forward="false" selection-start-line="138" selection-start-column="58" selection-end-line="138" selection-end-column="58" />
+        <state relative-caret-position="750">
+          <caret line="135" column="20" lean-forward="false" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#440#1425#0" expanded="false" />

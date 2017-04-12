@@ -3,10 +3,10 @@ from django.http import HttpResponse
 from django.template.context_processors import request
 import sys
 import sqlite3
+import json
+from pyasn1.compat.octets import null
 
 # Create your views here.
-def weather_test(request):
-    return HttpResponse("Test Success")
 
 
 def index(request):
@@ -30,23 +30,21 @@ def real_time(request):
     return HttpResponse(source_code)
 
 
-
-
-
 def history(request):
-    sys.path.insert(0, "/home/nataraja/Scrivania/OpenData")
     response=request.GET.get('name', '') #parameters name=city, otherwise null
     latest_list= [] 
     conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
     c = conn.cursor()
-    sql = 'SELECT City.id,''"%s".name,"%s".detection_time,'\
+    sql = 'SELECT City.id,"%s".name,"%s".detection_time,'\
     'City.lat,City.lon,"%s".temp,"%s".humidity,"%s".wind_speed '\
     'FROM "%s",City WHERE City.name="%s".name'%(response,response,response,response,response,response,response)
     for row in c.execute(sql):
         latest_list.append(row)
     conn.close()
     context = {'list': latest_list}
-    return render(request,'weather/data_history.html',context)
+    htmlResponse=json.dumps({'list':latest_list})
+    return HttpResponse(htmlResponse)
+    #return render(request,'weather/data_history.html',context)
 
 
 def all_plot(request):
@@ -57,7 +55,7 @@ def all_plot(request):
     latest_list= [] 
     conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
     c = conn.cursor()
-    sql = 'SELECT City.id,''"%s".name,"%s".detection_time,'\
+    sql = 'SELECT City.id,"%s".name,"%s".detection_time,'\
     'City.lat,City.lon,"%s".temp,"%s".humidity,"%s".wind_speed '\
     'FROM "%s",City WHERE City.name="%s".name'%(response,response,response,response,response,response,response)
     for row in c.execute(sql):
@@ -67,4 +65,49 @@ def all_plot(request):
     '''
     htmlResponse=onOpenStreetMap.schema(response)
     return HttpResponse(htmlResponse)
+   
+   
+#simple APi list   
+
+
+
+def api1_0(request):    
+    return render(request, 'weather/api1_0.html')
     
+    
+def city_list(request): 
+    #response=request.GET.get('name', '') #parameters name=city, otherwise null
+    latest_list= [] 
+    conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
+    c = conn.cursor()
+    sql = 'SELECT City.name FROM City'
+    for row in c.execute(sql):
+        latest_list.append(row)
+    conn.close()
+    context = {'list': latest_list}
+    htmlResponse=json.dumps({'list':latest_list})
+    return HttpResponse(htmlResponse)
+
+
+def getSingleData(request):
+    name=request.GET.get('name', '') #parameters name=city, otherwise ''
+    dT=request.GET.get('dt','')
+    #if (dT or name) == null: return HttpResponse('Error params!')
+    latest_list= [] 
+    conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
+    c = conn.cursor()
+    sql = 'SELECT City.id,"%s".name,"%s".detection_time,'\
+    'City.lat,City.lon,"%s".temp,"%s".humidity,"%s".wind_speed '\
+    'FROM "%s",City WHERE City.name="%s".name AND "%s".detection_time=%s'%(name,name,name,name,name,name,name,name,dT)
+    for row in c.execute(sql):
+        latest_list.append(row)
+    conn.close()
+    context = {'list': latest_list}
+    htmlResponse=json.dumps({'list':latest_list})
+    return HttpResponse(htmlResponse)
+    #return render(request,'weather/data_history.html',context)
+
+
+
+
+
