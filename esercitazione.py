@@ -1,12 +1,13 @@
+import random
 import urllib
+import geopy
 
 from bokeh.plotting import show
 import xml.etree.ElementTree as ET
 from bokeh.models import (
     GMapPlot, Range1d,
     PanTool, WheelZoomTool, GMapOptions, HoverTool, SquareX, ColumnDataSource, Circle, DataRange1d)
-
-
+from geopy.distance import great_circle
 
 map_options = GMapOptions(lat=38.1156879, lng=13.3612, zoom=15)
 
@@ -26,7 +27,7 @@ plot = GMapPlot(
     width=700,
     map_options=map_options,
     webgl=True,
-    api_key="AIzaSyCs3DbjLI4ruaQAcZSrZqA52xbHfMrblo8",
+    api_key="AIzaSyDpU0t2P2pZ58jqqf2Mc7bNZAwmBMzuSU4",
 
 )
 
@@ -39,16 +40,27 @@ for i in root.findall('DATA_RECORD'):
     latitude.append(float(i.find('LATITUDE').text.replace(',','.')))
     longitude.append(float(i.find('LONGITUDE').text.replace(',','.')))
 
+
+#circle = Circle(x=13.3612,y=38.1156879,size=250, line_color='blue', fill_color='blue', fill_alpha=0.4)
+#circle= Circle(x="lon", y="lat", radius=25, line_color='blue', fill_color='blue', fill_alpha=0.4)
+random_long=longitude[random.randint(0,len(longitude))]
+random_laty=latitude[random.randint(0,len(latitude))]
+lo=[]
+la=[]
+circle= Circle(x=random_long, y=random_laty, radius=25, line_color='blue', fill_color='blue', fill_alpha=0.4)
+for i,j in zip(latitude,longitude):
+    if great_circle([i,j],[random_laty,random_long]).meters < 500:
+        lo.append(j)
+        la.append(i)
+
 source = ColumnDataSource(
     data=dict(
-        lat=latitude,
-        lon=longitude,
+        lat=la,
+        lon=lo,
+        )
     )
-)
-#pan = PanTool()
-#wheel_zoom = WheelZoomTool()
-#circle = Circle(x=13.3612,y=38.1156879,size=250, line_color='blue', fill_color='blue', fill_alpha=0.4)
-circle= Circle(x="lon", y="lat", size=20, line_color='blue', fill_color='blue', fill_alpha=0.4)
+
+circle = Circle(x="lon", y="lat", radius=25, line_color='red', fill_color='red', fill_alpha=0.4)
 plot.add_glyph(source,circle)
 plot.add_tools(hover)
 show(plot)

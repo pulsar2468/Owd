@@ -84,7 +84,7 @@ def get_value_from_rectangle():
 
     geolocator = Nominatim()
     location = geolocator.geocode("Sicily") #i get the center of city/region espress to lat/lon
-    bbox=str(location.longitude-2)+','+str(location.latitude-2)+','+str(location.longitude+2)+','+str(location.latitude+2)+','+str(10)
+    bbox=str(location.longitude-1.8)+','+str(location.latitude-1.7)+','+str(location.longitude+1.6)+','+str(location.latitude+1.2)+','+str(10)
     payload = {
         "bbox": bbox #+-1 on coordinates, it's will move me for 111km in both directions
     }
@@ -143,12 +143,15 @@ def loop():
 
 
     while(True):
-        name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
+        try:
+            name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
 
 
     #map to sqlite
 
-        store_it.insert_city(name, lon, lat, id) #if exist IGNORE
-        store_it.insert_history_city(name,temp, humidity, wind_speed, t, id)#if exist IGNORE
-        time.sleep(900) #I get data for each 30 minutes and save them
+            store_it.insert_city(name, lon, lat, id) #if exist IGNORE
+            store_it.insert_history_city(name,temp, humidity, wind_speed, t, id)#if exist IGNORE
+            time.sleep(900) #I get data for each 30 minutes and save them
+        except:
+            pass
 

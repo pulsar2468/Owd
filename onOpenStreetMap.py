@@ -4,8 +4,6 @@ import locale
 import folium
 import sqlite3
 import datetime
-
-from bokeh.palettes import mpl
 from bokeh.models import VBox, ColumnDataSource, TableColumn, DataTable, DateFormatter, NumberFormatter, BoxAnnotation, \
     Button, PreText
 from bokeh.plotting import figure
