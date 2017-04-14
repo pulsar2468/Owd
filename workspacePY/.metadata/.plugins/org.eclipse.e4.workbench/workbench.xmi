@@ -157,8 +157,8 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_0CDbhiBWEeecH7ZEKnJJUg" elementId="org.eclipse.ui.editorss" containerData="6667" ref="_0CDctiBWEeecH7ZEKnJJUg"/>
               <children xsi:type="basic:PartStack" xmi:id="_0CDbhyBWEeecH7ZEKnJJUg" elementId="bottom" containerData="3333" selectedElement="_0CDbiSBWEeecH7ZEKnJJUg">
                 <tags>General</tags>
-                <tags>noFocus</tags>
                 <tags>active</tags>
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_0CDbiCBWEeecH7ZEKnJJUg" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_0CDc8SBWEeecH7ZEKnJJUg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_0CDbiSBWEeecH7ZEKnJJUg" elementId="org.eclipse.ui.console.ConsoleView" ref="_0CDc8iBWEeecH7ZEKnJJUg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_0CDbiiBWEeecH7ZEKnJJUg" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_0CDdCCBWEeecH7ZEKnJJUg"/>
@@ -400,7 +400,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_0CDc3CBWEeecH7ZEKnJJUg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="home.html" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;home.html&quot; partName=&quot;home.html&quot; title=&quot;home.html&quot; tooltip=&quot;mysite/mysite/weather/templates/weather/home.html&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/templates/weather/home.html&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2455&quot; selectionTopPixel=&quot;1113&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;home.html&quot; partName=&quot;home.html&quot; title=&quot;home.html&quot; tooltip=&quot;mysite/mysite/weather/templates/weather/home.html&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/templates/weather/home.html&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1713&quot; selectionTopPixel=&quot;556&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.ui.DefaultTextEditor</tags>
           <tags>removeOnHide</tags>
@@ -601,7 +601,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_0CDdFCBWEeecH7ZEKnJJUg" elementId="org.python.pydev.navigator.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="PyDev Package Explorer" iconURI="platform:/plugin/org.python.pydev/icons/pydev_package_explorer.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.python.pydev"/>
       <persistedState key="originalCompatibilityViewClass" value="org.python.pydev.navigator.ui.PydevPackageExplorer"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1491472811227&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/static&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/static/weather&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/templates&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/templates/weather&quot;/>&#xA;&lt;selected IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/static/weather/kute_animation.js&quot;/>&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1491472811227&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/static&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/static/weather&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/templates&quot;/>&#xA;&lt;expanded IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/templates/weather&quot;/>&#xA;&lt;selected IMemento.internal.id=&quot;/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/static/weather/bootstrap.css&quot;/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:PyDev</tags>
       <menus xmi:id="_0CDdFSBWEeecH7ZEKnJJUg" elementId="org.python.pydev.navigator.view">
@@ -641,7 +641,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CDdOyBWEeecH7ZEKnJJUg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_6oGFACCHEeex3Zp2ZkjMlg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0CFRyyBWEeecH7ZEKnJJUg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Ggxn8CDwEeen9ZZHk-NYOQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0CFRyyBWEeecH7ZEKnJJUg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CDdSCBWEeecH7ZEKnJJUg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -671,7 +671,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CDdmyBWEeecH7ZEKnJJUg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_6oIhQiCHEeex3Zp2ZkjMlg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0CFRQiBWEeecH7ZEKnJJUg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Gg15YCDwEeen9ZZHk-NYOQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0CFRQiBWEeecH7ZEKnJJUg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CDdpiBWEeecH7ZEKnJJUg" elementId="org.python.pydev.editor.PythonEditor" visible="false">
         <tags>Draggable</tags>
