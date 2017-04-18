@@ -4,8 +4,6 @@ from django.template.context_processors import request
 import sys
 import sqlite3
 import json
-from pyasn1.compat.octets import null
-
 # Create your views here.
 
 
