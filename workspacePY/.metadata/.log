@@ -4246,3 +4246,13 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY de.anbos.eclipse.easyshell.plugin 1 0 2017-04-18 19:34:59.813
 !MESSAGE isExpectedCommandOutput: answer: >null<
+!SESSION 2017-04-18 19:52:53.486 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data file:/home/nataraja/Scrivania/OpenData/workspacePY/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY de.anbos.eclipse.easyshell.plugin 1 0 2017-04-18 22:05:56.047
+!MESSAGE isExpectedCommandOutput: answer: >null<
