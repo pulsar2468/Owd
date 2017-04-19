@@ -38,7 +38,7 @@
 	<a href="#" class="button_index btn">Slidefolio</a>
 	<a href="/weather/data" class="button_index btn">RealTime</a>
 	<a href="/weather/api1_0" class="button_index btn">Api</a>
-	<a href="#" class="button_index btn Learn_button">Learn</a>
+	<a href="/weather/learn" class="button_index btn Learn_button">Learn</a>
 	
   
 <div class="btn-group">
@@ -47,7 +47,7 @@
   </p>
   
  {% if name_city %}
- <ul class="dropdown-menu" role="menu">
+ <ul class="dropdown-menu scrollable-menu" role="menu">
         		{% for i in name_city %}
         			<li><a href="/weather/all_plot/?name={{i}}">{{i}}</a></li> 
 	    		{% endfor %}

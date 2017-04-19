@@ -137,5 +137,6 @@ def getLastHumyData(request):
     htmlResponse=json.dumps({'list':latest_list})
     return HttpResponse(htmlResponse)
 
-
+def learn(request):
+    return render(request,'weather/learn.html')
 

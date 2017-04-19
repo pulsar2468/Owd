@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="257" key="DIALOG_X_ORIGIN"/>
-		<item value="-73" key="DIALOG_Y_ORIGIN"/>
+		<item value="194" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="EditorSelectionDialog">
+		<item value="false" key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL"/>
+		<item value="" key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION"/>
+		<item value="ts.eclipse.ide.jsdt.ui.editor.TypeScriptEditor" key="EditorSelectionDialog.STORE_ID_DESCR"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="-1" key="dialogHeight"/>
