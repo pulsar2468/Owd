@@ -96,7 +96,7 @@ def getSingleData(request):
     c = conn.cursor()
     sql = 'SELECT City.id,"%s".name,"%s".detection_time,'\
     'City.lat,City.lon,"%s".temp,"%s".humidity,"%s".wind_speed '\
-    'FROM "%s",City WHERE City.name="%s".name AND "%s".detection_time=%s'%(name,name,name,name,name,name,name,name,dT)
+    'FROM "%s",City WHERE City.name="%s".name AND date("%s".detection_time)=%s'%(name,name,name,name,name,name,name,name,dT)
     for row in c.execute(sql):
         latest_list.append(row)
     conn.close()
