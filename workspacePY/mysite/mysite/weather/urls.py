@@ -16,6 +16,7 @@ urlpatterns = [
     url(r'^weather/api1_0/history/$', views.history),
     url(r'^weather/api1_0/city_list/$',views.city_list),
     url(r'^weather/api1_0/getSingleData/$', views.getSingleData),
+    url(r'^weather/api1_0/getLastTempData/$',views.getLastTempData),
 
     
 

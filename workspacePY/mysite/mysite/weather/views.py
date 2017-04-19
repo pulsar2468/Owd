@@ -105,7 +105,21 @@ def getSingleData(request):
     return HttpResponse(htmlResponse)
     #return render(request,'weather/data_history.html',context)
 
-
+def getLastTempData(request):
+    name=request.GET.get('name', '') #parameters name=city, otherwise ''
+    #if (dT or name) == null: return HttpResponse('Error params!')
+    latest_list= [] 
+    conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
+    c = conn.cursor()
+    sql = 'SELECT "%s".name,"%s".detection_time,'\
+    '"%s".temp '\
+    'FROM "%s",City WHERE City.name="%s".name AND "%s".rowid = (SELECT MAX(rowid) FROM "%s")'%(name,name,name,name,name,name,name)
+    for row in c.execute(sql):
+        latest_list.append(row)
+    conn.close()
+    context = {'list': latest_list}
+    htmlResponse=json.dumps({'list':latest_list})
+    return HttpResponse(htmlResponse)
 
 
 
