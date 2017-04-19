@@ -1,0 +1,225 @@
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'weather/bootstrap.css' %}" />
+    <!-- Add custom CSS here -->
+    <link rel="stylesheet" type="text/css" href="{% static '/weather/slidefolio.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/weather/btns.min.css' %}" />
+    <!--Script to framework Kute.js -->
+ 
+             <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   
+        
+ 
+    
+    <!-- Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+	  <img class="img-circle" alt="Company Logo" src="{% static '/weather/logo1.png' %}"/> 
+        <h2><em>OpenData Project</em></h2> 
+      </div>
+    </div>
+    
+    
+    <!-- /Header Area -->
+    
+    
+    
+     
+    
+	  <div id="nav">
+    <!-- Navigation -->
+    <nav class="navbar navbar-new" role="navigation">
+   <div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  
+  
+  
+ 
+	<a href="#" class="button_index btn">Slidefolio</a>
+	<a href="/weather/data" class="button_index btn">RealTime</a>
+	<a href="/weather/api1_0" class="button_index btn">Api</a>
+	<a href="#" class="button_index btn Learn_button">Learn</a>
+	
+  
+<div class="btn-group">
+  <p class="button_index btn dropdown-toggle" data-toggle="dropdown">
+  History<span class="caret"></span>
+  </p>
+  
+ {% if name_city %}
+ <ul class="dropdown-menu" role="menu">
+        		{% for i in name_city %}
+        			<li><a href="/weather/all_plot/?name={{i}}">{{i}}</a></li> 
+	    		{% endfor %}
+</ul>
+{% else %}
+    	<p>City not found!</p>
+{% endif %} 
+</div>	
+
+</div>
+</nav>	
+</div>
+
+<!-- /Navigation -->
+
+
+
+
+
+    <!-- About -->
+    <div id="about" class="about_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>About Us</h2>
+            <p class="lead">This project is completely free</p>
+          </div>
+        </div>
+	  </div>
+	     <div id="containers_love">
+    <div class="box box1">I</div>
+    <div class="box box2"><img src="{% static '/weather/heart.png' %}" height="120" width="120" align="middle">  </div>
+    <div class="box box3">Open</div>
+    <div class="box box4">Data</div>
+    </div>
+    </div>
+    <!-- /About -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Services -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Our Services</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-camera-retro fa-3x"></i>
+              <h3>OpenData!</h3>
+              <p>Data are retrieved from Cloud OpenWeatherMap and permanently saved into our database of type Sqlite,
+              if you want the our data, you can download it! they are Open data :)</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+			<i class="service-icon fa fa-camera fa-3x"></i>
+              <h3>Visualization</h3>
+              <p>The software uses the api of OpenStreeMap, and it's offers a lot of plot of weather data</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-globe fa-3x"></i>
+              <h3>Data Analysis</h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Services -->
+     
+<footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+           <h2>Thank You</h2>
+           <em>Copyright &copy; Company 2013</em>
+          </div>
+        </div>
+      </div>
+    </footer>
+      
+      
+   
+        <script    src='https://cdn.jsdelivr.net/kute.js/1.5.0/kute.min.js'>  </script>    
+   <script    src="https://cdn.jsdelivr.net/kute.js/1.5.0/kute-css.min.js"></script>    
+   <script src="https://cdn.jsdelivr.net/kute.js/1.6.2/kute-svg.min.js"></script>
+   <script    src="{% static '/weather/kute_animation.js' %}"></script>
+    
+
+   
+	
+    <script src="{% static '/weather/jquery.js' %}"></script>
+	<script src="{% static '/weather/jquery-scrolltofixed-min.js' %}"></script>
+	<script src="{% static '/weather/jquery.vegas.js' %}"></script>
+	<script src="{% static '/weather/jquery.mixitup.min.js' %}"></script>
+	<script src="{% static '/weather/jquery.validate.min.js' %}"></script>
+	<script src="{% static '/weather/script.js' %}"></script>
+	<script src="{% static '/weather/bootstrap.js' %}"></script>
+      
+
+      
+   
+
+<!-- Mixitup : Grid -->
+    <script>
+		$(function(){
+    $('#Grid').mixitup();
+      });
+    </script>
+<!-- /Mixitup : Grid -->	
+
+    <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+<!-- Navbar -->
+<script type="text/javascript">
+$(document).ready(function() {
+        $('#nav').scrollToFixed();
+  });
+    </script>
+<!-- /Navbar-->
+
+	<script>
+$.vegas('slideshow', {
+  delay:5000,
+  backgrounds:[
+     { src:'{% static '/weather/sky.jpg' %}', fade:2000 },
+     { src:'{% static '/weather/night.jpg' %}', fade:2000 },
+  
+	   
+  ]
+})('overlay', {
+src:'{% static '/weather/overlay.png' %}'
+});
+
+	</script>
+
+  
+      
+      
+      
+   
