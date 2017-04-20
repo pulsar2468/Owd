@@ -509,7 +509,6 @@ multiprocessing.sharedctypes|/usr/lib/python3.5/multiprocessing/sharedctypes.py
 multiprocessing.spawn|/usr/lib/python3.5/multiprocessing/spawn.py
 multiprocessing.synchronize|/usr/lib/python3.5/multiprocessing/synchronize.py
 multiprocessing.util|/usr/lib/python3.5/multiprocessing/util.py
-mysite.weather.views|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/views.py
 netrc|/usr/lib/python3.5/netrc.py
 nntplib|/usr/lib/python3.5/nntplib.py
 ntpath|/usr/lib/python3.5/ntpath.py
