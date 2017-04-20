@@ -2,180 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41fe4d28-3e47-4d5b-8b94-6051e46ad40a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iFeelBot.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/d/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/d/history.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/39/f4/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/39/f4/history.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/history.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/Bio_7ba0v9frgevdnzpq0v6cczr0z.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/Bio_7ba0v9frgevdnzpq0v6cczr0z.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/Ope_6zjtyng8qir04a20gyl8hjyym.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/Ope_6zjtyng8qir04a20gyl8hjyym.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/__b_dnskz9cijnkq0ra7glpml8cr3.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/__b_dnskz9cijnkq0ra7glpml8cr3.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/__m_4zk3cnoobcl5is5emwkc9sm0p.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/__m_4zk3cnoobcl5is5emwkc9sm0p.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_as_83byr3niuthrzp60i3horo7ox.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_as_83byr3niuthrzp60i3horo7ox.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_bi_9k0fst5ebhoptl9ywmexei2vm.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_bi_9k0fst5ebhoptl9ywmexei2vm.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_co_17p7h6hy7mqj4kwpk7bnr2p36.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_co_17p7h6hy7mqj4kwpk7bnr2p36.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_co_7hjcvn4hmuihow5hsizipe79c.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_co_7hjcvn4hmuihow5hsizipe79c.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_co_d48sqlvyh96wrh8yza7yuwb9d.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_co_d48sqlvyh96wrh8yza7yuwb9d.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_cs_53nr2l32yh7f5e2hqoxw4rajy.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_cs_53nr2l32yh7f5e2hqoxw4rajy.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_he_4o9yxpdmpei9le1p08f4bvj3j.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_he_4o9yxpdmpei9le1p08f4bvj3j.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_ho_4v5ye3oaxkc1q6sp635tux2ky.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_ho_4v5ye3oaxkc1q6sp635tux2ky.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_io_6a2oy5gaqkqm3ii615tian03f.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_io_6a2oy5gaqkqm3ii615tian03f.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_lo_6kobilmzhy79yr92sycr7ksy6.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_lo_6kobilmzhy79yr92sycr7ksy6.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_mu_4npgws7w4k7v6dyrhj08a7434.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_mu_4npgws7w4k7v6dyrhj08a7434.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_so_biim2luajm1mgf6ursap0i62v.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_so_biim2luajm1mgf6ursap0i62v.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_sr_e7efviiwl1l1zd7yghxs3052c.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_sr_e7efviiwl1l1zd7yghxs3052c.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_st_5we407qkjzsgbl7zjplqn5lgp.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_st_5we407qkjzsgbl7zjplqn5lgp.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_sy_4693byppvq2bnpaddhg8gyb7j.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_sy_4693byppvq2bnpaddhg8gyb7j.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_we_26n8w71k31rp801sh0b764fuu.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/_we_26n8w71k31rp801sh0b764fuu.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/atk_7r3ri0osk2j0ac50v922jvvzv.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/atk_7r3ri0osk2j0ac50v922jvvzv.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/aud_78l55mqil4tezlm82dv55ru39.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/aud_78l55mqil4tezlm82dv55ru39.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bin_8m8q0ecuhb9efmp3qdrj0i4mq.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bin_8m8q0ecuhb9efmp3qdrj0i4mq.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._39xbvla2gd2cwk95uvp2pavj0.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._39xbvla2gd2cwk95uvp2pavj0.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._3g04xikir3hnt4x4hhzum1n3e.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._3g04xikir3hnt4x4hhzum1n3e.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._3sofbbfpo93qedp8tk0my7cef.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._3sofbbfpo93qedp8tk0my7cef.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._56lxmk9wt1x17v00mlhyoy6qc.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._56lxmk9wt1x17v00mlhyoy6qc.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._5bm1cutfxp4bqy5o2vphfiua1.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._5bm1cutfxp4bqy5o2vphfiua1.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._6nldo3r6l9pb00pbtis7qaqtn.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._6nldo3r6l9pb00pbtis7qaqtn.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._8g3lqaie2lbyzu6qreggn1wzq.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._8g3lqaie2lbyzu6qreggn1wzq.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._9oejcxmun1nzh9la0a18cl4po.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._9oejcxmun1nzh9la0a18cl4po.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._9qs9d3hxsx054yanqvxnegcv1.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._9qs9d3hxsx054yanqvxnegcv1.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._9ypo8p1nsg8sr7tgh55cchysd.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._9ypo8p1nsg8sr7tgh55cchysd.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._b3y5iv7wpptjz3gcr1t3qbe53.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._b3y5iv7wpptjz3gcr1t3qbe53.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._bxnele8qtzyfleoyb3zy651ca.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._bxnele8qtzyfleoyb3zy651ca.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._c53e0hrfc3nixo6n2thtnpdaq.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/bx._c53e0hrfc3nixo6n2thtnpdaq.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/cPi_5ajnl5ns8iwmehfwnl0gnwn2d.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/cPi_5ajnl5ns8iwmehfwnl0gnwn2d.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/cma_7cy5p8ma5plt01liyonfg9hk2.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/cma_7cy5p8ma5plt01liyonfg9hk2.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/dat_d98b63rx3bkew9vt60k1sdtvr.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/dat_d98b63rx3bkew9vt60k1sdtvr.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/dup_bkf89oqujfld0nhlnockvg2ht.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/dup_bkf89oqujfld0nhlnockvg2ht.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/ema_qo9kepyjr2c9fn70iux9vcn0.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/ema_qo9kepyjr2c9fn70iux9vcn0.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/err_6mu9tid2uz2da4o2y85j88n7g.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/err_6mu9tid2uz2da4o2y85j88n7g.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/exc_1iq1z4hhv4z8i1xm9spc88ob9.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/exc_1iq1z4hhv4z8i1xm9spc88ob9.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/fcn_cqbpk3jluo8vvyvamadd03rf2.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/fcn_cqbpk3jluo8vvyvamadd03rf2.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/fut_95ezlpwev604c7mp1qlogqbf3.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/fut_95ezlpwev604c7mp1qlogqbf3.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gc_9onpr88v8s82ah7zautceet60.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gc_9onpr88v8s82ah7zautceet60.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_1x2fxvcm5nndsejzuic6vizng.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_1x2fxvcm5nndsejzuic6vizng.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_37n4qvjn2uinm5ly3s0uawvrr.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_37n4qvjn2uinm5ly3s0uawvrr.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_47k3ow1gl08bmrvpyz5pes5u9.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_47k3ow1gl08bmrvpyz5pes5u9.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_6wbshx6qn0mogsdo3um9sscim.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_6wbshx6qn0mogsdo3um9sscim.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_bevc82sk2sz6l3oxhlnefftzm.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_bevc82sk2sz6l3oxhlnefftzm.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_wnhbm7by2d5qsoqqyxkv9m6n.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gst_wnhbm7by2d5qsoqqyxkv9m6n.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gtk_4wg81hch7nqsn16k7hbi5ong7.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gtk_4wg81hch7nqsn16k7hbi5ong7.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gtk_6wlavflk636tpze8yeql2hkga.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gtk_6wlavflk636tpze8yeql2hkga.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gtk_asb2yk72jse6v2drbtqdw3dxg.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gtk_asb2yk72jse6v2drbtqdw3dxg.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gtk_b6y20880kvqxqmrds8l9dnytq.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/gtk_b6y20880kvqxqmrds8l9dnytq.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/imp_6siuz3vnw8d7ip6hipoustb4n.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/imp_6siuz3vnw8d7ip6hipoustb4n.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/ite_6t3xv6ay8fl4n3eo3bh2oyjq6.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/ite_6t3xv6ay8fl4n3eo3bh2oyjq6.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/kiv_62fvkkbnryjzxmx119q4ag4hp.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/kiv_62fvkkbnryjzxmx119q4ag4hp.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/kiv_bwq8lbjvz3sq5su32fnvv0uv.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/kiv_bwq8lbjvz3sq5su32fnvv0uv.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/kiv_cahyqn07auz91z41frlzgkelf.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/kiv_cahyqn07auz91z41frlzgkelf.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/kiv_emzjmovye0g1znvufq75amwk9.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/kiv_emzjmovye0g1znvufq75amwk9.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/lib_4orrr8untqy728axjg7mvjhqw.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/lib_4orrr8untqy728axjg7mvjhqw.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/lib_cg84fzonq5zk4syasufe0eda9.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/lib_cg84fzonq5zk4syasufe0eda9.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/lxm_23itgyv1pm7g7e9xdcvyd45h8.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/lxm_23itgyv1pm7g7e9xdcvyd45h8.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/lxm_eemtqwywg7eem3flpi13up0e3.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/lxm_eemtqwywg7eem3flpi13up0e3.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mat_314286oibx1agtrm2elw5tzw4.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mat_314286oibx1agtrm2elw5tzw4.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mat_7heinoyrzfe5rs2u15pp5onuq.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mat_7heinoyrzfe5rs2u15pp5onuq.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mat_ahwcbgjtx2czd1qw2x5xg1bzr.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mat_ahwcbgjtx2czd1qw2x5xg1bzr.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mat_dari4rirtja14jlu0jy135oc5.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mat_dari4rirtja14jlu0jy135oc5.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mat_p71lcci1dagt5c84k858f8pr.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mat_p71lcci1dagt5c84k858f8pr.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mma_by3ow1qhblkqg0fzf9bw5ztfj.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mma_by3ow1qhblkqg0fzf9bw5ztfj.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mul_7elmwkqjaetwynqyggag18oh5.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/mul_7elmwkqjaetwynqyggag18oh5.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/net_61sk8y9d0f3qwg1jt9zsy7x6s.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/net_61sk8y9d0f3qwg1jt9zsy7x6s.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/num_2rg5ofl43nceutqvyavz3k7gr.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/num_2rg5ofl43nceutqvyavz3k7gr.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/ope_4gkwrl4szox33lt0i0dgan789.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/ope_4gkwrl4szox33lt0i0dgan789.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/os._538l3dke3pzq523cw7v74x8ip.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/os._538l3dke3pzq523cw7v74x8ip.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pan_2hz15yikx97ptmlbg2qw9lhc.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pan_2hz15yikx97ptmlbg2qw9lhc.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pan_v6prx8kpzxausw7oisg50yiy.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pan_v6prx8kpzxausw7oisg50yiy.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/par_37niobpmfro5latc19aoq3mvv.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/par_37niobpmfro5latc19aoq3mvv.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pos_8tm1rt1fps8k68epeqceb8wpt.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pos_8tm1rt1fps8k68epeqceb8wpt.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_12fciv6ngnnbx36manqormgod.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_12fciv6ngnnbx36manqormgod.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_1f13kd4eayp1lltdj4s6fwr9e.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_1f13kd4eayp1lltdj4s6fwr9e.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_1qjjfuzvedxsau2hm3hgjty3f.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_1qjjfuzvedxsau2hm3hgjty3f.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_22mnd8m03hfwwxc8bztl9ti21.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_22mnd8m03hfwwxc8bztl9ti21.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_28qk2sdj3dwp90byp465n2od8.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_28qk2sdj3dwp90byp465n2od8.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_5hwseklgxvo5r1fpoh825720d.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_5hwseklgxvo5r1fpoh825720d.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_5olis7bs0x55ekwpe34giycez.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_5olis7bs0x55ekwpe34giycez.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_681slc61nwhrr4snv4vyd64f2.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_681slc61nwhrr4snv4vyd64f2.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_6lwu7zte8qaeulzn7m4og4f5r.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_6lwu7zte8qaeulzn7m4og4f5r.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_6mw4k2mgvb89d6kpau37plmwb.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_6mw4k2mgvb89d6kpau37plmwb.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_6ucxmzkyf41so2ygvohxp30y2.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_6ucxmzkyf41so2ygvohxp30y2.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_7mh85x3ilwc4vbf0agiqpzm75.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_7mh85x3ilwc4vbf0agiqpzm75.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_8qeomdjnmkmz706og5vm5io04.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_8qeomdjnmkmz706og5vm5io04.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_96t1pu891ec391izhykjkrxvo.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_96t1pu891ec391izhykjkrxvo.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_b0y8r1mploc4b1fgzystgjxgp.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_b0y8r1mploc4b1fgzystgjxgp.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_bzarp4f2mryc9qu4nes4bk6k5.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_bzarp4f2mryc9qu4nes4bk6k5.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_dq4209f7lykw8rk5pvee0k5m4.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_dq4209f7lykw8rk5pvee0k5m4.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_e7z5lysqy6wobx5f9afa6gg8l.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_e7z5lysqy6wobx5f9afa6gg8l.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_ec1p961zvuuvmui7yj115p15b.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_ec1p961zvuuvmui7yj115p15b.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_egj7wkiwr8frscn1a7rbb178e.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyg_egj7wkiwr8frscn1a7rbb178e.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pym_dr16kry45u5shv17o5ghsfqv2.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pym_dr16kry45u5shv17o5ghsfqv2.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyn_5naesnbn0bsbzl63qwqxxq044.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyn_5naesnbn0bsbzl63qwqxxq044.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyo_bzx3d8mlspylsj7n3nwn7i31x.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pyo_bzx3d8mlspylsj7n3nwn7i31x.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pys_3js6rmhnci51gaq5ai23i9cya.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pys_3js6rmhnci51gaq5ai23i9cya.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pys_9ozcggb15iq5veu4be52uykfz.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/pys_9ozcggb15iq5veu4be52uykfz.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_1gt8w6ixyk0h36ncdt7qgj8cl.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_1gt8w6ixyk0h36ncdt7qgj8cl.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_2ghtvg7j4tihrhou6cwk810oi.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_2ghtvg7j4tihrhou6cwk810oi.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_2ksbnwlvfhaasrnzzmei9ba9o.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_2ksbnwlvfhaasrnzzmei9ba9o.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_33hpsfy0eidibpzxtv8pk02zr.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_33hpsfy0eidibpzxtv8pk02zr.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_38l3b4rhalgp87gamgyz0903q.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_38l3b4rhalgp87gamgyz0903q.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_3ssucg5ldvdv5cwqxcr4z5oyn.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_3ssucg5ldvdv5cwqxcr4z5oyn.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_441csauxdryrbsihii93mrnu1.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_441csauxdryrbsihii93mrnu1.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_4ajwyommg6p6279tlkqulecld.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_4ajwyommg6p6279tlkqulecld.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_4nx1h1e9ngxyjmvc3vmv6348x.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_4nx1h1e9ngxyjmvc3vmv6348x.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_4usokybldh4yse2otyejxu7g4.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_4usokybldh4yse2otyejxu7g4.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_4z92qj4roag5zpbhncbd9wwat.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_4z92qj4roag5zpbhncbd9wwat.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_54jtsua1ujp3vnxskp1sciypp.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_54jtsua1ujp3vnxskp1sciypp.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_5okanqf5qdltvx9kxl64t95v.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_5okanqf5qdltvx9kxl64t95v.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_5xiccj0a1c2yso12fwkabripp.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_5xiccj0a1c2yso12fwkabripp.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_6f0ljhpb8b7tkdlojr5h7f2mz.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_6f0ljhpb8b7tkdlojr5h7f2mz.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_79os4ur9e048g9atkosn55ccs.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_79os4ur9e048g9atkosn55ccs.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_7a7mqsbz91chbw0et78ltp33w.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_7a7mqsbz91chbw0et78ltp33w.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_7dkkuhqaz8x1neyscyww8jr7i.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_7dkkuhqaz8x1neyscyww8jr7i.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_7xcup84h9n4a06pabyjynfigk.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_7xcup84h9n4a06pabyjynfigk.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_8kpqp9i6nk7qcs3i9jtbe1ayl.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_8kpqp9i6nk7qcs3i9jtbe1ayl.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_94zq3gv0fb5ssw2biwmudo6rb.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_94zq3gv0fb5ssw2biwmudo6rb.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_95qtjnon24vei17h22sad0byw.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_95qtjnon24vei17h22sad0byw.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_9bevvnarnq89shz92guxyt0nx.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_9bevvnarnq89shz92guxyt0nx.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_9f5tit2ena4vch610av5tm1q8.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_9f5tit2ena4vch610av5tm1q8.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_9qx4z46s7e2jfghg13gi5pef7.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_9qx4z46s7e2jfghg13gi5pef7.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_adju361ovyz60pow67u9c8kzn.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_adju361ovyz60pow67u9c8kzn.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_aoy0ien8opayfy69dm9fym38q.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_aoy0ien8opayfy69dm9fym38q.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_arswqw176btoy2lf2zn2ub8ts.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_arswqw176btoy2lf2zn2ub8ts.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_awl0k7dej2h6buvumalgag57.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_awl0k7dej2h6buvumalgag57.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_axzy6lk85adom1s4gbxzoai0n.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_axzy6lk85adom1s4gbxzoai0n.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_b4iw6eeht3w2ficx88t5xxhbl.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_b4iw6eeht3w2ficx88t5xxhbl.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_bcmxuub4lzv6ledckdkf0712a.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_bcmxuub4lzv6ledckdkf0712a.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_bhukiwndznce34611rnaxt5b9.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_bhukiwndznce34611rnaxt5b9.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_cekf0w47ado3slhcbau95bvfb.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_cekf0w47ado3slhcbau95bvfb.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_dkm3ax5egzjrnil0lwu6nihp9.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_dkm3ax5egzjrnil0lwu6nihp9.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_dthufdl2jle3jjptbyakgfuu9.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_dthufdl2jle3jjptbyakgfuu9.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_dwrrg9n5wdjf7u5kotrr3me8n.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_dwrrg9n5wdjf7u5kotrr3me8n.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_e3yh2lcdbisnrdfk65j5eh3x9.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_e3yh2lcdbisnrdfk65j5eh3x9.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_efzm7oirjg1lu4mh7fbtskmzq.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_efzm7oirjg1lu4mh7fbtskmzq.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_egwy7wlam88uxaa4lwvtw0cw6.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_egwy7wlam88uxaa4lwvtw0cw6.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_emgwq3r894p7wbf3le82ftusi.top" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sam_emgwq3r894p7wbf3le82ftusi.top" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sel_93bc8mzvcwqsw3gn10t0uifya.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sel_93bc8mzvcwqsw3gn10t0uifya.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sig_4uxc3256uutlb9124ncttph4e.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sig_4uxc3256uutlb9124ncttph4e.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/str_ceeu2xy5dk414p5onnji1v4bl.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/str_ceeu2xy5dk414p5onnji1v4bl.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sys_38nscq48b69m6g8gxgx7hnnlg.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sys_38nscq48b69m6g8gxgx7hnnlg.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sys_k9cmtsxww2j8u89y6bav8gam.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/sys_k9cmtsxww2j8u89y6bav8gam.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/thr_d11c613apfj2p6ye569kb8bf6.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/thr_d11c613apfj2p6ye569kb8bf6.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/tim_gmck7p25e37djm0e71vt17aj.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/tim_gmck7p25e37djm0e71vt17aj.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/uni_7kvdg3ophjlo7p1zxj9j4iuxb.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/uni_7kvdg3ophjlo7p1zxj9j4iuxb.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/wnc_d1km0uukt85mu9ywu18vwpe7l.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/wnc_d1km0uukt85mu9ywu18vwpe7l.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/wx_77e3fnm8jh0seyz1snjf7ek6n.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/wx_77e3fnm8jh0seyz1snjf7ek6n.inn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/zli_79ahfzeuauaea2hjmxnm1ruar.inn" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_bm109oo8jsa5gnqmc06ekl12p/shell/zli_79ahfzeuauaea2hjmxnm1ruar.inn" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/owm_test.py" afterPath="$PROJECT_DIR$/owm_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.log" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/com.python.pydev.analysis/python_v1_bm109oo8jsa5gnqmc06ekl12p/python.pydevsysteminfo" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/com.python.pydev.analysis/python_v1_bm109oo8jsa5gnqmc06ekl12p/python.pydevsysteminfo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/com.python.pydev.analysis/python_v1_93lbdo62cifm9olokixj47cql/python.pydevsysteminfo" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/com.python.pydev.analysis/python_v1_93lbdo62cifm9olokixj47cql/python.pydevsysteminfo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.debug.core/.launches/mysite mysite.launch" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.debug.core/.launches/mysite mysite.launch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/org.python.pydev/v1_astmanager/modulesKeys" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/org.python.pydev/v1_astmanager/modulesKeys" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/modulesKeys" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/modulesKeys" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/version.ini" afterPath="$PROJECT_DIR$/workspacePY/.metadata/version.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/views.py" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/templates/weather/home.html" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/templates/weather/home.html" />
     </list>
     <ignored path="OpenData.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -195,10 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="owm_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="owm_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owm_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="882">
               <caret line="153" column="51" lean-forward="false" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -226,9 +67,11 @@
       <file leaf-file-name="onOpenStreetMap.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onOpenStreetMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="54">
+              <caret line="48" column="3" lean-forward="false" selection-start-line="48" selection-start-column="3" selection-end-line="67" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,6 +98,18 @@
                 <element signature="e#98#1479#0" expanded="false" />
                 <element signature="e#1506#3297#0" expanded="false" />
                 <element signature="e#3322#4156#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iFeelBot.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iFeelBot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -292,13 +147,15 @@
         <option value="$PROJECT_DIR$/onOpenStreetMap.py" />
         <option value="$PROJECT_DIR$/esercitazione.py" />
         <option value="$PROJECT_DIR$/owm_test.py" />
+        <option value="$PROJECT_DIR$/telegramPy.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="x" value="-2" />
+    <option name="y" value="23" />
+    <option name="width" value="1370" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -330,8 +187,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.esercitazione">
+  <component name="RunManager" selected="Python.telegramPy">
     <configuration default="false" name="owm_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -387,24 +244,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="sql_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenData" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/store_it.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="applet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -436,6 +275,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenData" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/esercitazione.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="telegramPy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenData" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iFeelBot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -540,17 +397,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.owm_test" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sql_script" />
-      <item index="3" class="java.lang.String" itemvalue="Python.applet" />
-      <item index="4" class="java.lang.String" itemvalue="Python.esercitazione" />
+      <item index="2" class="java.lang.String" itemvalue="Python.applet" />
+      <item index="3" class="java.lang.String" itemvalue="Python.esercitazione" />
+      <item index="4" class="java.lang.String" itemvalue="Python.telegramPy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.esercitazione" />
-        <item index="1" class="java.lang.String" itemvalue="Python.applet" />
-        <item index="2" class="java.lang.String" itemvalue="Python.owm_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.sql_script" />
+        <item index="0" class="java.lang.String" itemvalue="Python.telegramPy" />
+        <item index="1" class="java.lang.String" itemvalue="Python.esercitazione" />
+        <item index="2" class="java.lang.String" itemvalue="Python.applet" />
+        <item index="3" class="java.lang.String" itemvalue="Python.owm_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -621,14 +478,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="0" />
+    <frame x="-2" y="23" width="1370" height="746" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22306526" sideWeight="0.48705882" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09984872" sideWeight="0.48705882" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3860465" sideWeight="0.50292826" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30176565" sideWeight="0.56278366" order="11" side_tool="true" content_ui="tabs" x="0" y="285" width="1366" height="221" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35473517" sideWeight="0.5688351" order="11" side_tool="true" content_ui="tabs" x="0" y="285" width="1366" height="221" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30112723" sideWeight="0.43721634" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35473517" sideWeight="0.4311649" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26484752" sideWeight="0.5650529" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36276084" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
@@ -667,22 +524,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/owm_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#113#510#0" expanded="false" />
-            <element signature="e#534#1368#0" expanded="false" />
-            <element signature="e#1395#1577#0" expanded="false" />
-            <element signature="e#1607#1835#0" expanded="false" />
-            <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#2333#3973#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onGmaps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -694,7 +535,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,11 +1065,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/owm_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="153" column="51" lean-forward="false" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#113#510#0" expanded="false" />
+            <element signature="e#534#1368#0" expanded="false" />
+            <element signature="e#1395#1577#0" expanded="false" />
+            <element signature="e#1607#1835#0" expanded="false" />
+            <element signature="e#1864#2294#0" expanded="false" />
+            <element signature="e#2333#3973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/onOpenStreetMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="54">
+          <caret line="48" column="3" lean-forward="false" selection-start-line="48" selection-start-column="3" selection-end-line="67" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1243,18 +1104,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/owm_test.py">
+    <entry file="file://$PROJECT_DIR$/iFeelBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="153" column="51" lean-forward="false" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
+        <state relative-caret-position="342">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#113#510#0" expanded="false" />
-            <element signature="e#534#1368#0" expanded="false" />
-            <element signature="e#1395#1577#0" expanded="false" />
-            <element signature="e#1607#1835#0" expanded="false" />
-            <element signature="e#1864#2294#0" expanded="false" />
-            <element signature="e#2333#3973#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
