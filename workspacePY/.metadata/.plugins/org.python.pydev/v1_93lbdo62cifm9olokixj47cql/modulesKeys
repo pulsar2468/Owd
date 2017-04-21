@@ -2479,6 +2479,9 @@ email.parser|/usr/lib/python3.5/email/parser.py
 email.policy|/usr/lib/python3.5/email/policy.py
 email.quoprimime|/usr/lib/python3.5/email/quoprimime.py
 email.utils|/usr/lib/python3.5/email/utils.py
+emoji.__init__|/usr/local/lib/python3.5/dist-packages/emoji/__init__.py
+emoji.core|/usr/local/lib/python3.5/dist-packages/emoji/core.py
+emoji.unicode_codes|/usr/local/lib/python3.5/dist-packages/emoji/unicode_codes.py
 encodings.__init__|/usr/lib/python3.5/encodings/__init__.py
 encodings.aliases|/usr/lib/python3.5/encodings/aliases.py
 encodings.ascii|/usr/lib/python3.5/encodings/ascii.py

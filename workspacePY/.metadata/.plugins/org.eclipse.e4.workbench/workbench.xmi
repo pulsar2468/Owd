@@ -267,7 +267,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_0CDcwyBWEeecH7ZEKnJJUg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="views" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;views.py&quot; partName=&quot;views&quot; title=&quot;views&quot; tooltip=&quot;mysite/mysite/weather/views.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/views.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;75&quot; selectionOffset=&quot;4317&quot; selectionTopPixel=&quot;1621&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;views.py&quot; partName=&quot;views&quot; title=&quot;views&quot; tooltip=&quot;mysite/mysite/weather/views.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/views.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3826&quot; selectionTopPixel=&quot;385&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
@@ -598,7 +598,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CDdOyBWEeecH7ZEKnJJUg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_37bPsCXzEeepZdSgNWeYTw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0CFRyyBWEeecH7ZEKnJJUg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_RlFYwCZoEeeXALWO0dNqNA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0CFRyyBWEeecH7ZEKnJJUg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CDdSCBWEeecH7ZEKnJJUg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -628,7 +628,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CDdmyBWEeecH7ZEKnJJUg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_37fhICXzEeepZdSgNWeYTw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0CFRQiBWEeecH7ZEKnJJUg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_RlJqMCZoEeeXALWO0dNqNA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0CFRQiBWEeecH7ZEKnJJUg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CDdpyBWEeecH7ZEKnJJUg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
