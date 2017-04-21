@@ -1,2 +1,2 @@
 # Owd
-Project to Tecniche e Gestione degli Open Data 2017
+Open Data Project (Tecniche e gestione degli OpenData 2017)
