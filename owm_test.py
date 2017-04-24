@@ -153,5 +153,6 @@ def loop():
             store_it.insert_history_city(name,temp, humidity, wind_speed, t, id)#if exist IGNORE
             time.sleep(900) #I get data for each 15 minutes and save them
         except:
+            time.sleep(60)
             pass
 

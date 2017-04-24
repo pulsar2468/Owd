@@ -25,7 +25,7 @@ SECRET_KEY = 'okw3z6*%a25((g@o&qtooa@fw%%rs&=r-y8@+)l%xz!o1k!&jb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [] #in this case, i will visible into my LAN
+ALLOWED_HOSTS = ['192.168.1.142','2.237.61.247','openweatherdata.ns0.it'] #in this case, i will visible into my LAN
 
 
 # Application definition
