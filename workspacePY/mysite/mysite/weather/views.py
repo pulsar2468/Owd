@@ -140,3 +140,6 @@ def getLastHumyData(request):
 def learn(request):
     return render(request,'weather/learn.html')
 
+def join_telegram(request):
+    return render(request,'weather/joinTelegram.html')
+

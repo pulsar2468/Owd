@@ -9,7 +9,7 @@ def Julia_handle(message):
         if len(msg.split()) < 2: return
         what, name=msg.split(' ',1)
 
-        if (what == "weatherlist"):
+        if (what == "weather" and name== "list"):
             url = 'http://192.168.1.111:8001/list_files'
             r = requests.get(url)
             bot.sendMessage(chat_id, r.text)
@@ -18,7 +18,11 @@ def Julia_handle(message):
         if (what == "weather"):
             url = 'http://192.168.1.111:8001/%s' % name
             r = requests.get(url)
-            bot.sendMessage(chat_id, r.text)
+            if (r.status_code == 404):
+                bot.sendSticker(chat_id,stickers[0])
+                bot.sendMessage(chat_id, "At this time, the file not exists!")
+            else:
+                bot.sendMessage(chat_id, r.text)
             return
 
         city_list = []
@@ -124,18 +128,16 @@ def Julia_handle(message):
                         ###########################
 
 
-
-
-
-
         else:
-            bot.sendSticker(chat_id, 'CAADBAADJQUAAv-4-AXgwpxLWFOwJwI')
+            bot.sendSticker(chat_id,stickers[1])
             bot.sendMessage(chat_id, 'You don\'t want to see him angry.\n\nCity not found! Please  choose between these..\n' + str(city_list))
 
 
-
+stickers = ['CAADBAADFwUAAv-4-AVj7lOYcpBoKAI','CAADBAADJQUAAv-4-AXgwpxLWFOwJwI']
 bot = telepot.Bot('345541407:AAHs9hnV1T7f3Nq1f4qVoK6IpwjkyxYG3GM')
 bot.message_loop(Julia_handle,run_forever=True)
-stickers = ['']
+#stickers[0] Not exists,
+#stickers[1] Angry Chuck
+
 #while 1: it's equivalent to run_forever=True
     #time.sleep(10)

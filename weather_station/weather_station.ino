@@ -31,7 +31,7 @@ int g;
 File webFile;
 WiFiServer server(8001);
 SimpleTimer timer; 
-
+byte id_timer;
 void setup() {
   Serial.begin(115200);
   delay(10);
@@ -68,7 +68,7 @@ void setup() {
 
   // Print the IP address
   Serial.println(WiFi.localIP());
-  timer.setInterval(10000, get_data);  //I get weather data each 10 seconds, in this way I listen the requests
+  id_timer=timer.setInterval(10000, get_data);  //I get weather data each 10 seconds, in this way I listen the requests
   
 }
 
@@ -118,31 +118,43 @@ void loop() {
                         webFile = SD.open("APP.JS");        // open web page file
                     }
                      
-                   else if (StrContains(HTTP_req, "GET /MILLIG.CSS",0)) {
+                   
+
+                    else if (StrContains(HTTP_req, "GET /APP.JS",0)) {
                         client.println("HTTP/1.1 200 OK");
-                        client.println("Content-Type: text/css");
+                        client.println("Content-Type: text/javascript");
                         client.println("Connection: keep-alive");
                         client.println();
-                        webFile = SD.open("MILLIG.CSS");        // open web page file
-                    }            
+                        webFile = SD.open("APP.JS");        // open web page file
+                    }
+
+                     else if (StrContains(HTTP_req, "GET /all_remove",0)) {
+                        timer.disable(id_timer);
+                        remove_file();
+                        timer.enable(id_timer);
+                    }
 
                   
                   else if (StrContains(HTTP_req, "TXT",5)) {
-                        
-                        client.println("HTTP/1.1 200 OK");
+                        for (g=0;g<strlen(HTTP_req);g++){
+                          if (HTTP_req[g+5]==' ') break;
+                          x[g+5]=HTTP_req[g+5]; 
+                        }                        
+                        if (SD.exists(x)){
+                         client.println("HTTP/1.1 200 OK");
                         client.println("Content-Type: text/html");
                         client.println("Connection: keep-alive");
                         client.println();
-                        
-                        
-                        for (g=0;g<strlen(HTTP_req);g++){
-                          if (HTTP_req[g+5]==' ') break;
-                          x[g+5]=HTTP_req[g+5];
-                          
+                        webFile = SD.open(x);
                         }
-                        
-                       
-                        webFile = SD.open(x);        // open web page file
+                        else { 
+                        client.println("HTTP/1.1 404 OK");
+                        client.println("Content-Type: text/html");
+                        client.println("Connection: keep-alive");
+                        client.println();
+                        webFile.close();
+                        }
+
                         for (g=5;g<20;g++) x[g]=0;
                     }
 
@@ -232,6 +244,25 @@ char StrContains(char *str, char *sfind,char index)
 
     return 0;
 }
+
+
+void remove_file(){
+  char name_f[20];
+  String f;
+  while(true){
+    if (n_train==-1) {
+      n_train=0;
+    break;
+  }
+    f="DATA/"+ String(n_train)+".TXT";
+    f.toCharArray(name_f,20);
+    Serial.println(name_f);
+    SD.remove(name_f);
+    n_train--;
+  }
+  Serial.println("All data deleted");
+  }
+
     
   
 void save_to_file(){

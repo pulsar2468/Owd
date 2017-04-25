@@ -19,6 +19,8 @@ urlpatterns = [
     url(r'^weather/api1_0/getLastTempData/$',views.getLastTempData),
     url(r'^weather/api1_0/getLastHumyData/$',views.getLastHumyData),
     url(r'^weather/learn/$', views.learn),
+    url(r'^weather/joinTelegram/$', views.join_telegram),
+
 
     
 

@@ -14,8 +14,9 @@
     <!-- Header Area -->
     <div id="top" class="header">
       <div class="vert-text">
-	  <img class="img-circle" alt="Company Logo" src="{% static '/weather/logo1.png' %}"/> 
         <h2><em>OpenData Project</em></h2> 
+        <a href="/weather/joinTelegram"> <img class="telegram_icon" src="{% static '/weather/telegram.ico' %}"> </a>
+        
       </div>
     </div>
     
@@ -38,7 +39,7 @@
 	<a href="#" class="button_index btn">Slidefolio</a>
 	<a href="/weather/data" class="button_index btn">RealTime</a>
 	<a href="/weather/api1_0" class="button_index btn">Api</a>
-	<a href="/weather/learn" class="button_index btn Learn_button">Learn</a>
+	<a href="/weather/learn" class="button_index btn Learn_button">Learn</a>	
 	
   
 <div class="btn-group">
@@ -56,7 +57,6 @@
     	<p>City not found!</p>
 {% endif %} 
 </div>	
-
 </div>
 </nav>	
 </div>
