@@ -143,7 +143,7 @@ def Julia_handle(message):
 
 
 stickers = ['CAADBAADFwUAAv-4-AVj7lOYcpBoKAI','CAADBAADJQUAAv-4-AXgwpxLWFOwJwI']
-bot = telepot.Bot('345541407:AAHs9hnV1T7f3Nq1f4qVoK6IpwjkyxYG3GM')
+bot = telepot.Bot('')
 bot.message_loop(Julia_handle,run_forever=True)
 #stickers[0] Not exists,
 #stickers[1] Angry Chuck
