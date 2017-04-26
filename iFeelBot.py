@@ -10,19 +10,29 @@ def Julia_handle(message):
         what, name=msg.split(' ',1)
 
         if (what == "weather" and name== "list"):
-            url = 'http://192.168.1.111:8001/list_files'
-            r = requests.get(url)
-            bot.sendMessage(chat_id, r.text)
+            try:
+                url = 'http://192.168.1.111:8001/list_files'
+                r = requests.get(url)
+                bot.sendMessage(chat_id, r.text)
+            except:
+                bot.sendMessage(chat_id, 'Maybe the weather station is off')
             return
 
         if (what == "weather"):
-            url = 'http://192.168.1.111:8001/%s' % name
-            r = requests.get(url)
-            if (r.status_code == 404):
-                bot.sendSticker(chat_id,stickers[0])
-                bot.sendMessage(chat_id, "At this time, the file not exists!")
-            else:
-                bot.sendMessage(chat_id, r.text)
+            try:
+                url = 'http://192.168.1.111:8001/%s' % name
+                r = requests.get(url)
+                if (r.status_code == 404):
+                    bot.sendSticker(chat_id,stickers[0])
+                    bot.sendMessage(chat_id, "At this time, the file not exists!")
+                else:
+                    bot.sendMessage(chat_id, r.text)
+            except:
+                bot.sendMessage(chat_id, 'Maybe the weather station is off')
+            return
+
+        if re.search('[Aa]bout', what) and name =='creator':
+            bot.sendMessage(chat_id, 'riccardo2468@gmail.com')
             return
 
         city_list = []
@@ -91,7 +101,7 @@ def Julia_handle(message):
                     for row in c.execute(sql1):
                             latest_list.append(row)
 
-                    bot.sendMessage(chat_id,'Temperature: '+str(latest_list[0][5])+'\n'+'Humidity: '+str(latest_list[0][6])+'\n'+'Wind Speed: '+str(latest_list[0][7]*3.6)+' km/h')
+                    bot.sendMessage(chat_id,'Temperature: '+str(latest_list[0][5])+'\n'+'Humidity: '+str(latest_list[0][6])+'\n'+'Wind Speed: '+str(round(latest_list[0][7]*3.6,4))+' km/h')
                     conn.close()
                     return
 
@@ -102,7 +112,7 @@ def Julia_handle(message):
             if re.search('[Hh]istory', what):
 
                         sql1 = 'SELECT "%s".detection_time,"%s".temp,"%s".humidity,"%s".wind_speed FROM "%s" ORDER BY "%s".rowid DESC '\
-                               'LIMIT 10' % (name,name,name,name,name,name)
+                               'LIMIT 7' % (name,name,name,name,name,name)
 
                         dT=[]
                         temp=[]
@@ -126,7 +136,6 @@ def Julia_handle(message):
                         conn.close()
                         return
                         ###########################
-
 
         else:
             bot.sendSticker(chat_id,stickers[1])
