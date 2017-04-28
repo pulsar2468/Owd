@@ -4,4 +4,10 @@ from django.contrib import admin
 from .models import Weather_data
 
 admin.site.register(Weather_data)
-'''#for visibility to admin panel
+'''
+
+
+#for visibility to admin panel, in this case custom user
+from .models import User
+
+admin.site.register(User)

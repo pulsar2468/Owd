@@ -5,6 +5,7 @@ Created on Apr 6, 2017
 '''
 
 from django.conf.urls import url
+from django.contrib.auth import views as auth_views
 
 from . import views
 
@@ -20,10 +21,7 @@ urlpatterns = [
     url(r'^weather/api1_0/getLastHumyData/$',views.getLastHumyData),
     url(r'^weather/learn/$', views.learn),
     url(r'^weather/joinTelegram/$', views.join_telegram),
-
-
-    
-
-    #url(r'^(?P<question_id>[0-9]+)/$', views.details, name='details'), #by regular expression
-    #url(r'^[0-9]+/$',views.test)
-]
+    url(r'^weather/login/$', auth_views.login, {'template_name': 'weather/login.html'}, name='login'),    
+    url(r'^weather/logout/$', auth_views.logout, {'next_page': '/'}, name='logout'),
+    url(r'^weather/signup/$', views.signup, name='signup'),
+    ]

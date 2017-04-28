@@ -490,6 +490,26 @@ body {
   }
 
 
+
+.login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+.sign_in {
+   position:relative;
+   top:20px;
+
+}
+
+
+
 .center-block {
     text-align:center;
     color: white;

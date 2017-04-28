@@ -1,9 +1,13 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from django.template.context_processors import request
 import sys
 import sqlite3
 import json
+from django.contrib.auth import login, authenticate
+from django.contrib.auth import get_user_model
+from django import forms #i refer to my forms.py
+from .forms import MyRegistrationForm #i get My form, because i change the user model authentication
 # Create your views here.
 
 
@@ -142,4 +146,20 @@ def learn(request):
 
 def join_telegram(request):
     return render(request,'weather/joinTelegram.html')
+
+
+def signup(request):
+    if request.method == 'POST': #after submit in html file, i get data from form and commit object
+        form = MyRegistrationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            raw_password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=raw_password)
+            login(request, user)
+            return redirect('/')
+    else:
+        form = MyRegistrationForm()
+    return render(request, 'weather/signup.html', {'form': form})
+
 

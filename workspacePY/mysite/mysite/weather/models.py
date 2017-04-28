@@ -1,16 +1,12 @@
 from django.db import models
-
-'''
-class Weather_data(models.Model):
-    id_city=models.CharField(max_length=50)
-    detection_time = models.DateTimeField()
+from django.contrib.auth.models import AbstractUser
 
 
-class Historical_data_for_city(models.Model):
-    id_city = models.ForeignKey(Weather_data)
-    temp = models.FloatField
-    humidity = models.IntegerField()
-    
-    
-    #id, name, lon, lat,pressure, temp, humidity,wind_speed,t
-'''
+
+#this class heredity by class AbstractUser all field user model for authication
+#In this way, i can add new field and work on another user model
+
+class User(AbstractUser):
+    weather_id = models.TextField(max_length=500, blank=True) #new field
+    #REQUIRED_FIELDS = ["email"]
+
