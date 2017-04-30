@@ -11,7 +11,7 @@
 </listAttribute>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${workspace_loc:mysite}/${DJANGO_MANAGE_LOCATION}"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_OTHER_WORKING_DIRECTORY" value="${workspace_loc:}"/>
-<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="runserver"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="runserver 10.42.0.1:8000"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:}"/>
 <stringAttribute key="org.python.pydev.debug.ATTR_INTERPRETER" value="python1"/>
 <stringAttribute key="org.python.pydev.debug.ATTR_PROJECT" value="mysite"/>

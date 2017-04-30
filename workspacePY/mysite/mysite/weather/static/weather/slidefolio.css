@@ -421,12 +421,11 @@ footer {
 	background-color:rgba(255, 100, 0, 0.5);
 }
 
-#containers_love {
-    position:absolute;
-	left:33%;
-	min-height: 100px;
-	min-width: 500px;
-    
+.containers_love {
+    position:relative;
+    margin-left: 50%;   
+    transform: translate(-230px);
+
 }
 
 .box {
@@ -502,11 +501,17 @@ body {
     font-weight: bold;
 }
 
-.sign_in {
-   position:relative;
-   top:20px;
+.sign_up {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 20px;
+        font-family: verdana;
+        font-weight: bold;
+    }
 
-}
 
 
 
@@ -550,9 +555,23 @@ body-block {
 
 .headerLearn {
     display: table;
-    height: 20%;
+    height: 10%;
     width: 100%;
     position: relative;
     background: #e7f0f7;
 
   }
+
+
+.video_weather {
+    background: #e7f0f7;
+    margin-left:100px;
+    border-radius: 50px;
+    width: 460px;
+    height: 420px;
+}
+
+.left {
+    position:relative;
+    left:0px;
+}

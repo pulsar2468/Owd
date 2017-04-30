@@ -22,7 +22,7 @@ tween6.start();
 
 
 
-setInterval(iLoveOpenData,5000);
+setInterval(iLoveOpenData,8000);
 
 
 function iLoveOpenData(){

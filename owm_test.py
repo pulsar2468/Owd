@@ -125,7 +125,8 @@ def get_value_from_rectangle():
         #hour=t.hour
         #minutes=t.minute
         #seconds=t.second
-    return name, lon, lat,pressure, temp, humidity,wind_speed,t,id
+    return name, lon, lat, pressure, temp, humidity, wind_speed, t, id, wind_deg
+
 
 
 #loop to get data
@@ -136,7 +137,7 @@ def loop():
     #post_value()
     #onOpenStreetMap.visual(name, lon, lat, pressure, temp, humidity, wind_speed, t)
     #get_stations()
-    #name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
+    #name, lon, lat, pressure, temp, humidity, wind_speed, t, id, wind_deg = get_value_from_rectangle()
 
     #store_it.drop_table(name)
     #store_it.history_table(name)
@@ -144,13 +145,13 @@ def loop():
 
     while(True):
         try:
-            name, lon, lat,pressure, temp, humidity,wind_speed,t,id=get_value_from_rectangle()
+            name, lon, lat,pressure, temp, humidity,wind_speed,t,id,wind_deg=get_value_from_rectangle()
 
 
     #map to sqlite
 
             store_it.insert_city(name, lon, lat, id) #if exist IGNORE
-            store_it.insert_history_city(name,temp, humidity, wind_speed, t, id)#if exist IGNORE
+            store_it.insert_history_city(name,temp, humidity, wind_speed, t, id,pressure,wind_deg)#if exist IGNORE
             time.sleep(900) #I get data for each 15 minutes and save them
         except:
             time.sleep(60)

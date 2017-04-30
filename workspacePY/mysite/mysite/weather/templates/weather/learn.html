@@ -10,7 +10,6 @@
 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-
  <!-- Header Area -->
     <div class="headerLearn">
       <p class="learnTitle"> Learn </p>
@@ -19,6 +18,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-
     <!-Header Area -->
 
 <body>
+
 <div class="row top-first-buffer">
 <div class="col-md-6 col-xs-6 center-block">What is it??<body-block>On the right, we have the heart of the anemometer (tcrt5000).
 It's an reflective sensor which include an infrared emitter and phototransistor in a leaded
@@ -48,6 +48,7 @@ For example: $$ \frac {25m}{s} = \frac {25\frac {1km}{1000m}}{\frac {1h}{3600s}}
 </div>
 </div>
 
+
 <div class="row top-buffer">
 <div class="col-md-4 col-xs-4 center-block">Explanation
 <body-block> Since the infrared wavelength is between 700 nm and 1 mm (is longer than visible light, 400 nm-700nm) 
@@ -64,12 +65,26 @@ instead, it's won't be reflect by black material</body-block></div>
 </div>
 </body>
 
+<div class="row top-buffer">
+
+<div class="col-md-6 col-xs-6">
+    <video controls class="embed-responsive-item video_weather">
+        <source src="{% static '/weather/240p_video.mp4' %}" type="video/mp4">
+    </video>
+</div>
+
+<div class="col-md-6 col-xs-6 center-block">Title
+<body-block> 
+</body-block>
+</div>
+</div>
+
 
        
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-6-offset-3 text-center">
+      <div class="col-md-6 col-md-offset-3 text-center">
        <h2>Thank You</h2>
        <em>Copyright 2017</em>
       </div>

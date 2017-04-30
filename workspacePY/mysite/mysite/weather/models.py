@@ -7,6 +7,7 @@ from django.contrib.auth.models import AbstractUser
 #In this way, i can add new field and work on another user model
 
 class User(AbstractUser):
-    weather_id = models.TextField(max_length=500, blank=True) #new field
+    weather_id = models.TextField(max_length=200, blank=True) #new field
+    api_key_weather = models.TextField(max_length=200, blank=True)
     #REQUIRED_FIELDS = ["email"]
 

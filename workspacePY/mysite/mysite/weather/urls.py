@@ -19,9 +19,13 @@ urlpatterns = [
     url(r'^weather/api1_0/getSingleData/$', views.getSingleData),
     url(r'^weather/api1_0/getLastTempData/$',views.getLastTempData),
     url(r'^weather/api1_0/getLastHumyData/$',views.getLastHumyData),
+    url(r'^weather/api1_0/getLastPressure/$',views.getLastPressure),
     url(r'^weather/learn/$', views.learn),
     url(r'^weather/joinTelegram/$', views.join_telegram),
     url(r'^weather/login/$', auth_views.login, {'template_name': 'weather/login.html'}, name='login'),    
     url(r'^weather/logout/$', auth_views.logout, {'next_page': '/'}, name='logout'),
     url(r'^weather/signup/$', views.signup, name='signup'),
+    url(r'^weather/signup_weather/$', views.signup_weather),
+    url(r'^weather/DataFromWs/$', views.DataFromWs),
+
     ]

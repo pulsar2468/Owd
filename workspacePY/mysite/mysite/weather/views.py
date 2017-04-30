@@ -8,7 +8,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth import get_user_model
 from django import forms #i refer to my forms.py
 from .forms import MyRegistrationForm #i get My form, because i change the user model authentication
-# Create your views here.
+from .forms import SignUpWeatherForm
 
 
 def index(request):
@@ -24,12 +24,15 @@ def index(request):
 
 
 def real_time(request):
-    sys.path.insert(0, "/home/nataraja/Scrivania/OpenData")
-    import onOpenStreetMap
-    onOpenStreetMap.real_time()
-    HtmlFile = open('/home/nataraja/Scrivania/OpenData/workspacePY/real_timeMap.html', 'r', encoding='utf-8')
-    source_code = HtmlFile.read() 
-    return HttpResponse(source_code)
+    if request.user.is_authenticated():
+        sys.path.insert(0, "/home/nataraja/Scrivania/OpenData")
+        import onOpenStreetMap
+        onOpenStreetMap.real_time()
+        HtmlFile = open('/home/nataraja/Scrivania/OpenData/workspacePY/real_timeMap.html', 'r', encoding='utf-8')
+        source_code = HtmlFile.read() 
+        return HttpResponse(source_code)
+    else:
+            return HttpResponse("Before, you have to log in!")
 
 
 def history(request):
@@ -50,29 +53,29 @@ def history(request):
 
 
 def all_plot(request):
-    sys.path.insert(0, "/home/nataraja/Scrivania/OpenData")
-    import onOpenStreetMap
-    response=request.GET.get('name', '') #parameters name=city, otherwise null
-    '''
-    latest_list= [] 
-    conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
-    c = conn.cursor()
-    sql = 'SELECT City.id,"%s".name,"%s".detection_time,'\
-    'City.lat,City.lon,"%s".temp,"%s".humidity,"%s".wind_speed '\
-    'FROM "%s",City WHERE City.name="%s".name'%(response,response,response,response,response,response,response)
-    for row in c.execute(sql):
-        latest_list.append(row)
-    conn.close()
-    context = {'list': latest_list}
-    '''
-    htmlResponse=onOpenStreetMap.schema(response)
-    return HttpResponse(htmlResponse)
+    if request.user.is_authenticated():
+        sys.path.insert(0, "/home/nataraja/Scrivania/OpenData")
+        import onOpenStreetMap
+        response=request.GET.get('name', '') #parameters name=city, otherwise null
+        '''
+        latest_list= [] 
+        conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
+        c = conn.cursor()
+        sql = 'SELECT City.id,"%s".name,"%s".detection_time,'\
+        'City.lat,City.lon,"%s".temp,"%s".humidity,"%s".wind_speed '\
+        'FROM "%s",City WHERE City.name="%s".name'%(response,response,response,response,response,response,response)
+        for row in c.execute(sql):
+            latest_list.append(row)
+        conn.close()
+        context = {'list': latest_list}
+        '''
+        htmlResponse=onOpenStreetMap.schema(response)
+        return HttpResponse(htmlResponse)
+    else:
+        return HttpResponse("Before, You have to log in!")
    
    
 #simple APi list   
-
-
-
 def api1_0(request):    
     return render(request, 'weather/api1_0.html')
     
@@ -109,6 +112,7 @@ def getSingleData(request):
     return HttpResponse(htmlResponse)
     #return render(request,'weather/data_history.html',context)
 
+
 def getLastTempData(request):
     name=request.GET.get('name', '') #parameters name=city, otherwise ''
     #if (dT or name) == null: return HttpResponse('Error params!')
@@ -124,6 +128,7 @@ def getLastTempData(request):
     context = {'list': latest_list}
     htmlResponse=json.dumps({'list':latest_list})
     return HttpResponse(htmlResponse)
+
 
 def getLastHumyData(request):
     name=request.GET.get('name', '') #parameters name=city, otherwise ''
@@ -141,11 +146,33 @@ def getLastHumyData(request):
     htmlResponse=json.dumps({'list':latest_list})
     return HttpResponse(htmlResponse)
 
+
+def getLastPressure(request):
+    name=request.GET.get('name', '') #parameters name=city, otherwise ''
+    #if (dT or name) == null: return HttpResponse('Error params!')
+    latest_list= [] 
+    conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
+    c = conn.cursor()
+    sql = 'SELECT "%s".detection_time,'\
+    '"%s".pressure '\
+    'FROM "%s" WHERE "%s".rowid = (SELECT MAX(rowid) FROM "%s")'%(name,name,name,name,name)
+    for row in c.execute(sql):
+        latest_list.append(row)
+    conn.close()
+    context = {'list': latest_list}
+    htmlResponse=json.dumps({'list':latest_list})
+    return HttpResponse(htmlResponse)
+
+
 def learn(request):
     return render(request,'weather/learn.html')
 
+
 def join_telegram(request):
-    return render(request,'weather/joinTelegram.html')
+    if request.user.is_authenticated():
+        return render(request,'weather/joinTelegram.html')
+    else:
+        return HttpResponse("Before, you have to LogIn")
 
 
 def signup(request):
@@ -163,3 +190,23 @@ def signup(request):
     return render(request, 'weather/signup.html', {'form': form})
 
 
+
+def signup_weather(request):
+    if request.user.is_authenticated():
+        if request.method == 'POST': #after submit in html file, i get data from form and commit object
+            form = SignUpWeatherForm(data=request.POST,instance=request.user)
+            if form.is_valid():
+                form.save()
+                return redirect('/')
+        else:
+            form = SignUpWeatherForm()
+            return render(request, 'weather/signup_weather.html', {'form': form})
+    else:
+        return HttpResponse("Before, You have to log in!")
+      
+    
+def DataFromWs(request):
+        data=request.GET.get('data', '') #parameters name=...., otherwise ''
+        print(data)
+        return HttpResponse(status=204)
+    
