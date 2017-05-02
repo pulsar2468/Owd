@@ -8,6 +8,6 @@ admin.site.register(Weather_data)
 
 
 #for visibility to admin panel, in this case custom user
-from .models import User
+#from .models import 
 
-admin.site.register(User)
+#admin.site.register(User)

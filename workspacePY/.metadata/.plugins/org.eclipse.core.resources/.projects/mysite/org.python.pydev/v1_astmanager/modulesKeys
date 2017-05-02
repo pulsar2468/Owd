@@ -518,8 +518,6 @@ mysite.weather.__init__|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mys
 mysite.weather.admin|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/admin.py
 mysite.weather.apps|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/apps.py
 mysite.weather.forms|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/forms.py
-mysite.weather.migrations.0001_initial|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/migrations/0001_initial.py
-mysite.weather.migrations.0002_auto_20170428_1026|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/migrations/0002_auto_20170428_1026.py
 mysite.weather.migrations.__init__|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/migrations/__init__.py
 mysite.weather.models|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/models.py
 mysite.weather.tests|/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/weather/tests.py
