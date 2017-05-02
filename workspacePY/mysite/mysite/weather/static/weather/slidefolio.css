@@ -444,10 +444,10 @@ footer {
     justify-content: center;
 }
 
-.box1{left:0px; background-color:yellow;}
+.box1{left:0px; background-color:#56a0d3;}
 .box2{left: 120px; background-color:transparent;}
-.box3{left: 240px;background-color:orange;}
-.box4{left: 360px;background-color:blue;}
+.box3{left: 240px;background-color:#00c4ff;}
+.box4{left: 360px;background-color:#003366;}
 
 
 
@@ -485,8 +485,13 @@ footer {
 }
 
 body {
-    background:#0088cc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("/static/weather/1.jpg") ;
   }
+
 
 
 
@@ -575,3 +580,10 @@ body-block {
     position:relative;
     left:0px;
 }
+
+
+
+
+
+
+

@@ -192,18 +192,20 @@ def signup(request):
 
 
 
+#This function creates multiple stations for any users. They are linked to a single account.
+#You delete field called "name" in all city table, because it creates redundancy . Remember it!
 def signup_weather(request):
     if request.user.is_authenticated():
         if request.method == 'POST': #after submit in html file, i get data from form and commit object
-            mashup=str(request.user)+"_"+str(request.POST.get("weather_id"))
+            mashup=str(request.user)+"_"+str(request.POST.get("weather_id")+"_"+str(request.POST.get("name")))
             conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
             c = conn.cursor()
             sql = 'CREATE TABLE IF NOT EXISTS "%s" ("weather_id"  VARCHAR PRIMARY KEY NOT NULL ); '\
             'INSERT or IGNORE INTO "%s" VALUES ("%s"); '\
             'INSERT or IGNORE INTO City  VALUES ("%s","%s",%f,%f); '\
-            'CREATE TABLE IF NOT EXISTS  "%s" ("temp" FLOAT, "humidity" FLOAT, "wind_speed" FLOAT, ' \
+            'CREATE TABLE IF NOT EXISTS  "%s" ("name" VARCHAR , "temp" FLOAT, "humidity" FLOAT, "wind_speed" FLOAT, ' \
             '"detection_time" DATETIME PRIMARY KEY, "pressure" FLOAT, "wind_deg" FLOAT);' %(request.user,request.user,request.POST.get("weather_id"),
-                                                                                            request.POST.get("weather_id"),request.POST.get("name"),
+                                                                                            request.POST.get("weather_id"),mashup,
                                                                                             float(request.POST.get("latitude")),float(request.POST.get("longitude")),
                                                                                             mashup)
             c.executescript(sql)
