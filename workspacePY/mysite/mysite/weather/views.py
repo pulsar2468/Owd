@@ -200,11 +200,11 @@ def signup_weather(request):
             mashup=str(request.user)+"_"+str(request.POST.get("weather_id")+"_"+str(request.POST.get("name")))
             conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
             c = conn.cursor()
-            sql = 'CREATE TABLE IF NOT EXISTS "%s" ("weather_id"  VARCHAR PRIMARY KEY NOT NULL ); '\
-            'INSERT or IGNORE INTO "%s" VALUES ("%s"); '\
+            sql = 'CREATE TABLE IF NOT EXISTS "%s" ("weather_id"  VARCHAR PRIMARY KEY NOT NULL, "ico" BLOB  ); '\
+            'INSERT or IGNORE INTO "%s" VALUES ("%s","%s"); '\
             'INSERT or IGNORE INTO City  VALUES ("%s","%s",%f,%f); '\
             'CREATE TABLE IF NOT EXISTS  "%s" ("name" VARCHAR , "temp" FLOAT, "humidity" FLOAT, "wind_speed" FLOAT, ' \
-            '"detection_time" DATETIME PRIMARY KEY, "pressure" FLOAT, "wind_deg" FLOAT);' %(request.user,request.user,request.POST.get("weather_id"),
+            '"detection_time" DATETIME PRIMARY KEY, "pressure" FLOAT, "wind_deg" FLOAT);' %(request.user,request.user,request.POST.get("weather_id"),request.POST.get("ico"),
                                                                                             request.POST.get("weather_id"),mashup,
                                                                                             float(request.POST.get("latitude")),float(request.POST.get("longitude")),
                                                                                             mashup)

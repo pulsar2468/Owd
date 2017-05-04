@@ -3,13 +3,8 @@
     <!-- Add custom CSS here -->
     <link rel="stylesheet" type="text/css" href="{% static '/weather/slidefolio.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static '/weather/btns.min.css' %}" />
-    <!--Script to framework Kute.js -->
- 
-             <!-- Bootstrap core JavaScript -->
-    <!-- Placed at the end of the document so the pages load faster -->
    
         
- 
     
     <!-- Header Area -->
     <div id="top" class="header">
@@ -19,11 +14,7 @@
         
       </div>
     </div>
-    
-    
     <!-- /Header Area -->
-    
-    
     
      
     
@@ -69,8 +60,6 @@
 
 
 
-
-
     <!-- About -->
     <div id="about" class="about_us">
       <div class="container">
@@ -89,16 +78,6 @@
     </div>
     </div>
     <!-- /About -->
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -164,36 +143,7 @@
     <script src="{% static '/weather/jquery.js' %}"></script>
 	<script src="{% static '/weather/jquery-scrolltofixed-min.js' %}"></script>
 	<script src="{% static '/weather/jquery.vegas.js' %}"></script>
-	<script src="{% static '/weather/jquery.mixitup.min.js' %}"></script>
-	<script src="{% static '/weather/jquery.validate.min.js' %}"></script>
-	<script src="{% static '/weather/script.js' %}"></script>
 	<script src="{% static '/weather/bootstrap.js' %}"></script>
-      
-
-      
-   
-
-	
-
-    <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
-    <script>
-      $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-            || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top
-              }, 1000);
-              return false;
-            }
-          }
-        });
-      });
-    </script>
     
     
 <!-- Navbar -->
