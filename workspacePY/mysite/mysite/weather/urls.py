@@ -27,5 +27,6 @@ urlpatterns = [
     url(r'^weather/signup/$', views.signup, name='signup'),
     url(r'^weather/signup_weather/$', views.signup_weather),
     url(r'^weather/DataFromWs/$', views.DataFromWs),
+    url(r'^weather/realtime_from_userStations/$',views.real_time_from_UserStations),
 
     ]

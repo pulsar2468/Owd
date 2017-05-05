@@ -1,6 +1,3 @@
-import json
-import locale
-
 import folium
 import sqlite3
 import datetime
@@ -12,7 +9,7 @@ from bokeh.resources import CDN
 from bokeh.embed import file_html
 
 
-def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t,id,wind_degree):
+def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t,wind_degree):
     map_1 = folium.Map(location=[37.57, 13.92], zoom_start=8, tiles='stamenwatercolor')
     feature_group = folium.FeatureGroup("Locations")
 
@@ -42,9 +39,15 @@ def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t,id,wind_degre
     map_1.save("real_timeMap.html")
 
 
-def real_time():
-    name, lon, lat, pressure, temp, humidity, wind_speed, t, id, wind_deg = owm_test.get_value_from_rectangle()
-    visual(name, lon, lat, pressure, temp, humidity, wind_speed, t, id, wind_deg)
+def real_time(who):
+
+    if who:
+        name, lon, lat, pressure, temp, humidity, wind_speed, t, wind_deg = owm_test.get_value_from_rectangle()
+        visual(name, lon, lat, pressure, temp, humidity, wind_speed, t, wind_deg)
+    else:
+        name, lon, lat, pressure, temp, humidity, wind_speed, t, wind_deg=owm_test.get_value_from_userStations()
+        visual(name, lon, lat, pressure, temp, humidity, wind_speed, t, wind_deg)
+
 
 
 def schema(response):

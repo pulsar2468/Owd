@@ -1,6 +1,7 @@
 import datetime
 import requests
 import time
+import sqlite3
 from geopy import Nominatim
 
 import store_it
@@ -125,8 +126,62 @@ def get_value_from_rectangle():
         #hour=t.hour
         #minutes=t.minute
         #seconds=t.second
-    return name, lon, lat, pressure, temp, humidity, wind_speed, t, id, wind_deg
+    return name, lon, lat, pressure, temp, humidity, wind_speed, t, wind_deg
 
+
+
+def get_value_from_userStations():
+    lon = []
+    lat = []
+    t = []
+    id = []
+    pressure = []
+    temp = []
+    humidity = []
+    name = []
+    wind_deg = []
+    wind_speed = []
+    latest_list = []
+    conn = sqlite3.connect('/home/nataraja/Scrivania/OpenData/workspacePY/mysite/mysite/db.sqlite3')
+    c = conn.cursor()
+    sql = "SELECT username from auth_user"
+    for row in c.execute(sql):
+        latest_list.append(row)
+    context = {'users': latest_list}
+    conn.close()
+
+    conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
+    c = conn.cursor()
+    wea=[]
+    city=[]
+    station=dict()
+    for i in context['users']:
+        sql = "SELECT weather_id,city FROM %s; "%i
+        c.execute(sql)
+        station['%s'%i] = c.fetchall()
+
+    for key,value in station.items():
+        for i in value:
+            user_table=(key+"_"+i[0]+"_"+i[1])
+            sql = "SELECT * FROM %s WHERE %s.rowid = (SELECT MAX(rowid) FROM %s); " % (user_table,user_table,user_table)
+            c.execute(sql)
+            nam,te,hum,w_s,dt,pr,deg  = c.fetchone() or (None,0.0,0.0,0.0,None,0.0,0.0)
+            print(nam,te,hum,w_s,dt,pr,deg)
+            name.append(nam)
+            temp.append(te)
+            humidity.append(hum)
+            wind_speed.append(w_s)
+            t.append(dt)
+            pressure.append(pr)
+            wind_deg.append(deg)
+
+            sql1 = "SELECT lat, lon FROM City WHERE name = '%s';" % user_table
+            c.execute(sql1)
+            lt, ln = c.fetchone()
+            lat.append(float(lt))
+            lon.append(float(ln))
+
+    return name, lon, lat, pressure, temp, humidity, wind_speed, t, wind_deg
 
 
 #loop to get data

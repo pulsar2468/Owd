@@ -153,11 +153,13 @@
             <children xsi:type="basic:PartStack" xmi:id="_mF2MYy2pEee589ZdxCEXvA" elementId="topLeft" containerData="1772" selectedElement="_mF2MZC2pEee589ZdxCEXvA">
               <children xsi:type="advanced:Placeholder" xmi:id="_mF2MZC2pEee589ZdxCEXvA" elementId="org.python.pydev.navigator.view" ref="_mF20Yi2pEee589ZdxCEXvA"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_mF2MZS2pEee589ZdxCEXvA" containerData="8228" selectedElement="_mF2MZi2pEee589ZdxCEXvA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_mF2MZS2pEee589ZdxCEXvA" containerData="8228" selectedElement="_mF2MZy2pEee589ZdxCEXvA">
               <children xsi:type="advanced:Placeholder" xmi:id="_mF2MZi2pEee589ZdxCEXvA" elementId="org.eclipse.ui.editorss" containerData="6667" ref="_mF20GC2pEee589ZdxCEXvA"/>
               <children xsi:type="basic:PartStack" xmi:id="_mF2MZy2pEee589ZdxCEXvA" elementId="bottom" containerData="3333" selectedElement="_mF2MaS2pEee589ZdxCEXvA">
                 <tags>General</tags>
                 <tags>PyDev</tags>
+                <tags>active</tags>
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_mF2MaC2pEee589ZdxCEXvA" elementId="org.eclipse.search.ui.views.SearchView" ref="_mF20SC2pEee589ZdxCEXvA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_mF2MaS2pEee589ZdxCEXvA" elementId="org.eclipse.ui.console.ConsoleView" ref="_mF20SS2pEee589ZdxCEXvA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_mF2Mai2pEee589ZdxCEXvA" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_mF20Vi2pEee589ZdxCEXvA"/>
@@ -200,13 +202,11 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_mF20GC2pEee589ZdxCEXvA" elementId="org.eclipse.ui.editorss" selectedElement="_mF20GS2pEee589ZdxCEXvA">
-      <children xsi:type="basic:PartStack" xmi:id="_mF20GS2pEee589ZdxCEXvA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_mF20Jy2pEee589ZdxCEXvA">
+      <children xsi:type="basic:PartStack" xmi:id="_mF20GS2pEee589ZdxCEXvA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_mF20Gi2pEee589ZdxCEXvA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
-        <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_mF20Gi2pEee589ZdxCEXvA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="views" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;views.py&quot; partName=&quot;views&quot; title=&quot;views&quot; tooltip=&quot;mysite/mysite/weather/views.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/views.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;395&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;8443&quot; selectionTopPixel=&quot;2931&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;views.py&quot; partName=&quot;views&quot; title=&quot;views&quot; tooltip=&quot;mysite/mysite/weather/views.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/views.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1748&quot; selectionTopPixel=&quot;431&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
@@ -276,15 +276,13 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_mF20Jy2pEee589ZdxCEXvA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="forms" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;forms.py&quot; partName=&quot;forms&quot; title=&quot;forms&quot; tooltip=&quot;mysite/mysite/weather/forms.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/forms.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1321&quot; selectionTopPixel=&quot;250&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;forms.py&quot; partName=&quot;forms&quot; title=&quot;forms&quot; tooltip=&quot;mysite/mysite/weather/forms.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/forms.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;136&quot; selectionOffset=&quot;1143&quot; selectionTopPixel=&quot;220&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_mF20LC2pEee589ZdxCEXvA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="home.html" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;home.html&quot; partName=&quot;home.html&quot; title=&quot;home.html&quot; tooltip=&quot;mysite/mysite/weather/templates/weather/home.html&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/templates/weather/home.html&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;627&quot; selectionTopPixel=&quot;1568&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;home.html&quot; partName=&quot;home.html&quot; title=&quot;home.html&quot; tooltip=&quot;mysite/mysite/weather/templates/weather/home.html&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/templates/weather/home.html&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1291&quot; selectionTopPixel=&quot;342&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.ui.DefaultTextEditor</tags>
           <tags>removeOnHide</tags>
@@ -344,7 +342,7 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_mF20KC2pEee589ZdxCEXvA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="models" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;models.py&quot; partName=&quot;models&quot; title=&quot;models&quot; tooltip=&quot;mysite/mysite/weather/models.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/models.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;434&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;models.py&quot; partName=&quot;models&quot; title=&quot;models&quot; tooltip=&quot;mysite/mysite/weather/models.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/models.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;433&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
@@ -378,7 +376,7 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_Qi5e4C9vEeetQYYDD3f9gA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="urls" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;urls.py&quot; partName=&quot;urls&quot; title=&quot;urls&quot; tooltip=&quot;mysite/mysite/weather/urls.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/urls.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;100&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;urls.py&quot; partName=&quot;urls&quot; title=&quot;urls&quot; tooltip=&quot;mysite/mysite/weather/urls.py&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/mysite/mysite/weather/urls.py&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1276&quot; selectionTopPixel=&quot;115&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
@@ -482,6 +480,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_mF20Si2pEee589ZdxCEXvA" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -625,7 +625,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mF20ji2pEee589ZdxCEXvA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xWt0YDCaEee_mOL8Ar98cA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_mF5Qei2pEee589ZdxCEXvA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_M_AeoDFiEeeca9qjxZ6Ekg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_mF5Qei2pEee589ZdxCEXvA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mF20my2pEee589ZdxCEXvA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -655,7 +655,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mF202y2pEee589ZdxCEXvA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xWxewDCaEee_mOL8Ar98cA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_mF5P8S2pEee589ZdxCEXvA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_M_Dh8DFiEeeca9qjxZ6Ekg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_mF5P8S2pEee589ZdxCEXvA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mF205i2pEee589ZdxCEXvA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

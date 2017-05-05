@@ -28,7 +28,18 @@ def real_time(request):
     if request.user.is_authenticated():
         sys.path.insert(0, "/home/nataraja/Scrivania/OpenData")
         import onOpenStreetMap
-        onOpenStreetMap.real_time()
+        onOpenStreetMap.real_time(1)
+        HtmlFile = open('/home/nataraja/Scrivania/OpenData/workspacePY/real_timeMap.html', 'r', encoding='utf-8')
+        source_code = HtmlFile.read() 
+        return HttpResponse(source_code)
+    else:
+            return HttpResponse("Before, you have to log in!")
+        
+def real_time_from_UserStations(request):
+    if request.user.is_authenticated():
+        sys.path.insert(0, "/home/nataraja/Scrivania/OpenData")
+        import onOpenStreetMap
+        onOpenStreetMap.real_time(0)
         HtmlFile = open('/home/nataraja/Scrivania/OpenData/workspacePY/real_timeMap.html', 'r', encoding='utf-8')
         source_code = HtmlFile.read() 
         return HttpResponse(source_code)
@@ -200,11 +211,11 @@ def signup_weather(request):
             mashup=str(request.user)+"_"+str(request.POST.get("weather_id")+"_"+str(request.POST.get("name")))
             conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
             c = conn.cursor()
-            sql = 'CREATE TABLE IF NOT EXISTS "%s" ("weather_id"  VARCHAR PRIMARY KEY NOT NULL, "ico" BLOB  ); '\
+            sql = 'CREATE TABLE IF NOT EXISTS "%s" ("weather_id"  VARCHAR PRIMARY KEY NOT NULL, "city" VARCHAR  ); '\
             'INSERT or IGNORE INTO "%s" VALUES ("%s","%s"); '\
             'INSERT or IGNORE INTO City  VALUES ("%s","%s",%f,%f); '\
             'CREATE TABLE IF NOT EXISTS  "%s" ("name" VARCHAR , "temp" FLOAT, "humidity" FLOAT, "wind_speed" FLOAT, ' \
-            '"detection_time" DATETIME PRIMARY KEY, "pressure" FLOAT, "wind_deg" FLOAT);' %(request.user,request.user,request.POST.get("weather_id"),request.POST.get("ico"),
+            '"detection_time" DATETIME PRIMARY KEY, "pressure" FLOAT, "wind_deg" FLOAT);' %(request.user,request.user,request.POST.get("weather_id"),request.POST.get("name"),
                                                                                             request.POST.get("weather_id"),mashup,
                                                                                             float(request.POST.get("latitude")),float(request.POST.get("longitude")),
                                                                                             mashup)

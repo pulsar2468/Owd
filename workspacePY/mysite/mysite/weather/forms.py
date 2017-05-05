@@ -28,7 +28,7 @@ class SignUpWeatherForm(forms.Form):
     name = forms.CharField(required=True, help_text='Necessary')
     latitude = forms.FloatField(required=True, help_text='Necessary')
     longitude = forms.FloatField(required=True, help_text='Necessary')
-    ico= forms.ImageField(required=True) 
+    #ico= forms.FileField(required=True) 
 
   
     def __init__(self,*args,**kwargs):
