@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41fe4d28-3e47-4d5b-8b94-6051e46ad40a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/d/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/d/history.index" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kml_example.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/d/history.index" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/39/f4/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/39/f4/history.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/history.index" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/.indexes/d/f4/history.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
@@ -11,14 +12,20 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onOpenStreetMap.py" afterPath="$PROJECT_DIR$/onOpenStreetMap.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/owm_test.py" afterPath="$PROJECT_DIR$/owm_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.log" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/com.python.pydev.analysis/python_v1_93lbdo62cifm9olokixj47cql/python.pydevsysteminfo" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/com.python.pydev.analysis/python_v1_93lbdo62cifm9olokixj47cql/python.pydevsysteminfo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/org.python.pydev/v1_astmanager/modulesKeys" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/org.python.pydev/v1_astmanager/modulesKeys" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/org.python.pydev/v1_astmanager/pythonpath" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/org.python.pydev/v1_astmanager/pythonpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/dialog_settings.xml" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/modulesKeys" afterPath="$PROJECT_DIR$/workspacePY/.metadata/.plugins/org.python.pydev/v1_93lbdo62cifm9olokixj47cql/modulesKeys" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/.metadata/version.ini" afterPath="$PROJECT_DIR$/workspacePY/.metadata/version.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/forms.py" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/templates/weather/home.html" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/templates/weather/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/.pydevproject" afterPath="$PROJECT_DIR$/workspacePY/mysite/.pydevproject" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/static/weather/slidefolio.css" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/static/weather/slidefolio.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/templates/weather/api1_0.html" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/templates/weather/api1_0.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/urls.py" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/views.py" afterPath="$PROJECT_DIR$/workspacePY/mysite/mysite/weather/views.py" />
     </list>
@@ -40,17 +47,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="owm_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="owm_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/owm_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="167" column="82" lean-forward="false" selection-start-line="167" selection-start-column="82" selection-end-line="167" selection-end-column="82" />
+            <state relative-caret-position="1818">
+              <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#128#525#0" expanded="false" />
                 <element signature="e#549#1383#0" expanded="false" />
                 <element signature="e#1410#1592#0" expanded="false" />
                 <element signature="e#1879#2309#0" expanded="false" />
+                <element signature="e#4044#5669#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -59,11 +67,10 @@
       <file leaf-file-name="onOpenStreetMap.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onOpenStreetMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="648">
+              <caret line="44" column="115" lean-forward="false" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="115" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#1954#5541#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -72,26 +79,28 @@
       <file leaf-file-name="store_it.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store_it.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="180">
               <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#46#695#0" expanded="false" />
                 <element signature="e#723#985#0" expanded="false" />
+                <element signature="e#1028#1315#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iFeelBot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="iFeelBot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iFeelBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="65" column="90" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="90" />
+            <state relative-caret-position="738">
+              <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#333#601#0" expanded="false" />
                 <element signature="e#647#1123#0" expanded="false" />
                 <element signature="e#1198#1267#0" expanded="false" />
+                <element signature="e#1560#6623#0" expanded="false" />
                 <element signature="e#2661#3101#0" expanded="false" />
                 <element signature="e#3175#3674#0" expanded="false" />
                 <element signature="e#3749#4171#0" expanded="false" />
@@ -136,13 +145,16 @@
         <option value="$PROJECT_DIR$/esercitazione.py" />
         <option value="$PROJECT_DIR$/telegramPy.py" />
         <option value="$PROJECT_DIR$/store_it.py" />
-        <option value="$PROJECT_DIR$/iFeelBot.py" />
         <option value="$PROJECT_DIR$/animation_Google_earth.py" />
         <option value="$PROJECT_DIR$/bubble.html" />
         <option value="$PROJECT_DIR$/kml_example.py" />
         <option value="$PROJECT_DIR$/workspacePY/.metadata/.plugins/ts.eclipse.ide.server.nodejs.embed.linux.gtk.x86_64/node-v6.9.4-linux-x64/lib/node_modules/npm/node_modules/node-gyp/gyp/gyptest.py" />
         <option value="$PROJECT_DIR$/onOpenStreetMap.py" />
         <option value="$PROJECT_DIR$/owm_test.py" />
+        <option value="$PROJECT_DIR$/iFeelBot.py" />
+        <option value="$PROJECT_DIR$/hook.py" />
+        <option value="$PROJECT_DIR$/ontology_rdfJson.py" />
+        <option value="$PROJECT_DIR$/cibernetica.py" />
       </list>
     </option>
   </component>
@@ -167,6 +179,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,8 +195,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,43 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.telegramPy">
-    <configuration default="false" name="owm_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenData" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/owm_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="applet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenData" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/applet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.cibernetica">
     <configuration default="false" name="esercitazione" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,6 +263,42 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenData" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kml_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenData" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ontology_rdfJson.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cibernetica" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenData" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cibernetica.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,19 +401,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.owm_test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.applet" />
-      <item index="2" class="java.lang.String" itemvalue="Python.esercitazione" />
-      <item index="3" class="java.lang.String" itemvalue="Python.telegramPy" />
-      <item index="4" class="java.lang.String" itemvalue="Python.kml_example" />
+      <item index="0" class="java.lang.String" itemvalue="Python.esercitazione" />
+      <item index="1" class="java.lang.String" itemvalue="Python.telegramPy" />
+      <item index="2" class="java.lang.String" itemvalue="Python.kml_example" />
+      <item index="3" class="java.lang.String" itemvalue="Python.hook" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cibernetica" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.telegramPy" />
-        <item index="1" class="java.lang.String" itemvalue="Python.kml_example" />
-        <item index="2" class="java.lang.String" itemvalue="Python.esercitazione" />
-        <item index="3" class="java.lang.String" itemvalue="Python.applet" />
-        <item index="4" class="java.lang.String" itemvalue="Python.owm_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cibernetica" />
+        <item index="1" class="java.lang.String" itemvalue="Python.hook" />
+        <item index="2" class="java.lang.String" itemvalue="Python.telegramPy" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kml_example" />
+        <item index="4" class="java.lang.String" itemvalue="Python.esercitazione" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -472,15 +484,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2215478" sideWeight="0.48705882" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15128593" sideWeight="0.48705882" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3860465" sideWeight="0.50292826" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25842696" sideWeight="0.62934947" order="11" side_tool="true" content_ui="tabs" x="0" y="285" width="1366" height="221" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.097913325" sideWeight="0.64372164" order="11" side_tool="true" content_ui="tabs" x="0" y="285" width="1366" height="221" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18518518" sideWeight="0.37065053" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.097913325" sideWeight="0.35627836" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26484752" sideWeight="0.5650529" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36276084" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
@@ -514,26 +525,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/owm_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#128#525#0" expanded="false" />
-            <element signature="e#549#1383#0" expanded="false" />
-            <element signature="e#1410#1592#0" expanded="false" />
-            <element signature="e#1879#2309#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onGmaps.py" />
     <entry file="file://$PROJECT_DIR$/owm_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2016">
@@ -544,6 +540,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -559,6 +556,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -574,6 +572,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -589,6 +588,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -604,6 +604,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -620,6 +621,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -636,6 +638,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -651,6 +654,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -665,6 +669,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -679,6 +684,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -693,6 +699,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -707,6 +714,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -721,6 +729,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -735,6 +744,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -749,6 +759,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,6 +774,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -777,6 +789,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -791,6 +804,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -805,6 +819,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -819,6 +834,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -833,6 +849,7 @@
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -868,41 +885,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/animation_Google_earth.py" />
     <entry file="file://$PROJECT_DIR$/bubble.html" />
-    <entry file="file://$PROJECT_DIR$/kml_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store_it.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#695#0" expanded="false" />
-            <element signature="e#723#985#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workspacePY/.metadata/.plugins/ts.eclipse.ide.server.nodejs.embed.linux.gtk.x86_64/node-v6.9.4-linux-x64/lib/node_modules/npm/node_modules/node-gyp/gyp/gyptest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="169" column="8" lean-forward="false" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="8" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kml_example.py" />
+    <entry file="file://$PROJECT_DIR$/ontology_rdfJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iFeelBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="65" column="90" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="90" />
+        <state relative-caret-position="738">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#333#601#0" expanded="false" />
             <element signature="e#647#1123#0" expanded="false" />
             <element signature="e#1198#1267#0" expanded="false" />
+            <element signature="e#1560#6623#0" expanded="false" />
             <element signature="e#2661#3101#0" expanded="false" />
             <element signature="e#3175#3674#0" expanded="false" />
             <element signature="e#3749#4171#0" expanded="false" />
@@ -912,30 +919,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/store_it.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#695#0" expanded="false" />
+            <element signature="e#723#985#0" expanded="false" />
+            <element signature="e#1028#1315#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/onOpenStreetMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="648">
+          <caret line="44" column="115" lean-forward="false" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="115" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#1954#5541#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/owm_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="167" column="82" lean-forward="false" selection-start-line="167" selection-start-column="82" selection-end-line="167" selection-end-column="82" />
+        <state relative-caret-position="1818">
+          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <element signature="e#128#525#0" expanded="false" />
             <element signature="e#549#1383#0" expanded="false" />
             <element signature="e#1410#1592#0" expanded="false" />
             <element signature="e#1879#2309#0" expanded="false" />
+            <element signature="e#4044#5669#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cibernetica.py" />
   </component>
 </project>

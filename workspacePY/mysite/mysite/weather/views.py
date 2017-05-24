@@ -9,7 +9,7 @@ from django.contrib.auth import get_user_model
 from django import forms #i refer to my forms.py
 from .forms import MyRegistrationForm #i get My form, because i change the user model authentication
 from .forms import SignUpWeatherForm
-import sqlite3
+import pyld
 
 
 def index(request):
@@ -113,14 +113,14 @@ def getSingleData(request):
     latest_list= [] 
     conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
     c = conn.cursor()
-    sql = 'SELECT City.id,"%s".name,"%s".detection_time,'\
+    sql = 'SELECT "%s".name,"%s".detection_time,'\
     'City.lat,City.lon,"%s".temp,"%s".humidity,"%s".wind_speed '\
     'FROM "%s",City WHERE City.name="%s".name AND date("%s".detection_time)=%s'%(name,name,name,name,name,name,name,name,dT)
     for row in c.execute(sql):
         latest_list.append(row)
     conn.close()
     context = {'list': latest_list}
-    htmlResponse=json.dumps({'list':latest_list})
+    htmlResponse=json.dumps(context)
     return HttpResponse(htmlResponse)
     #return render(request,'weather/data_history.html',context)
 
@@ -234,4 +234,102 @@ def DataFromWs(request):
         data=request.GET.get('data', '') #parameters name=...., otherwise ''
         print(data)
         return HttpResponse(status=204)
+    
+    
+    
+    
+def singleDataRDF(request):
+    name=request.GET.get('name', '') #parameters name=city, otherwise ''
+    dT=request.GET.get('dt','')
+    #if (dT or name) == null: return HttpResponse('Error params!')
+    latest_list= [] 
+    conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
+    c = conn.cursor()
+    sql = 'SELECT "%s".name,"%s".detection_time,'\
+    '"%s".temp,"%s".humidity,"%s".wind_speed,"%s".wind_deg, "%s".pressure '\
+    'FROM "%s" WHERE date("%s".detection_time)=%s'%(name,name,name,name,name,name,name,name,name,dT)
+    for row in c.execute(sql):
+        latest_list.append(row)
+    conn.close()  
+  
+    subject = '''
+    {
+    "@context": "http://schema.org",
+    "@type": "DataFeed",
+    "about": "Weather observations by city and a specific datatime",
+    "publisher": {
+    "@type": "Organization",
+    "name": "WeatherLink",
+    "url": "http://openweatherdata.ns0.it"
+    },
+    "license": "",
+    "datasetTimeInterval": "2017-03-28",
+    
+'''
+    object=''
+    for i in range(0,len(latest_list)):
+        object = object+ '''
+        {
+        "@type": "DataFeedItem",
+        "item": {
+        "@type": "WeatherReport",
+        "time": "%s",
+        "windDirection": { "@type": "QuantitativeValue", "value": "%f", "unitCode": "DEG" },
+        "relativeHumidity": { "@type": "QuantitativeValue", "value": "%f", "unitCode": "P1" },
+        "atmosphericPressure": { "@type": "QuantitativeValue", "value": "%f", "unitCode": "HPA" },
+        "windSpeed": { "@type": "QuantitativeValue", "value": "%f", "unitCode": "MTS" },
+        "airTemperature": { "@type": "QuantitativeValue", "value": "%f", "unitCode": "CEL" }
+        }
+        }
+        '''%(latest_list[i][1],latest_list[i][6] or 0.0,latest_list[i][3],latest_list[i][5] or 0.0,latest_list[i][4],latest_list[i][2])
+        if i !=len(latest_list)-1: object=object+','
+    json_ld=subject+"\"dataFeedElement\": ["+object+"]}"
+    return HttpResponse(json_ld)
+    
+    
+def historyRDF(request):
+    response=request.GET.get('name', '') #parameters name=city, otherwise null
+    latest_list= [] 
+    conn = sqlite3.connect('/home/nataraja/Scrivania/db_weather.sqlite')
+    c = conn.cursor()
+    sql = 'SELECT "%s".name,"%s".detection_time,'\
+    '"%s".temp,"%s".humidity,"%s".wind_speed,"%s".pressure,"%s".wind_deg '\
+    'FROM "%s"'%(response,response,response,response,response,response,response,response)
+    for row in c.execute(sql):
+        latest_list.append(row)
+    conn.close()
+    subject = '''
+    {
+    "@context": "http://schema.org",
+    "@type": "DataFeed",
+    "about": "Weather observations by city of the all history city",
+    "publisher": {
+    "@type": "Organization",
+    "name": "WeatherLink",
+    "url": "http://openweatherdata.ns0.it"
+    },
+    "license": "",
+    "datasetTimeInterval": "2017-03-28",
+    
+'''
+    object=''
+    for i in range(0,len(latest_list)):
+        object = object+ '''
+        {
+        "@type": "DataFeedItem",
+        "item": {
+        "@type": "WeatherReport",
+        "time": "%s",
+        "windDirection": { "@type": "QuantitativeValue", "value": "%f", "unitCode": "DEG" },
+        "relativeHumidity": { "@type": "QuantitativeValue", "value": "%f", "unitCode": "P1" },
+        "atmosphericPressure": { "@type": "QuantitativeValue", "value": "%f", "unitCode": "HPA" },
+        "windSpeed": { "@type": "QuantitativeValue", "value": "%f", "unitCode": "MTS" },
+        "airTemperature": { "@type": "QuantitativeValue", "value": "%f", "unitCode": "CEL" }
+        }
+        }
+        '''%(latest_list[i][1],latest_list[i][6] or 0.0,latest_list[i][3],latest_list[i][5] or 0.0,latest_list[i][4],latest_list[i][2])
+        if i !=len(latest_list)-1: object=object+','
+    json_ld=subject+"\"dataFeedElement\": ["+object+"]}"
+    return HttpResponse(json_ld)
+    
     

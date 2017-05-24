@@ -42,7 +42,7 @@ def visual(name, lon, lat, pressure, temp, humidity, wind_speed, t,wind_degree):
 def real_time(who):
 
     if who:
-        name, lon, lat, pressure, temp, humidity, wind_speed, t, wind_deg = owm_test.get_value_from_rectangle()
+        name, lon, lat, pressure, temp, humidity, wind_speed, t, id, wind_deg = owm_test.get_value_from_rectangle()
         visual(name, lon, lat, pressure, temp, humidity, wind_speed, t, wind_deg)
     else:
         name, lon, lat, pressure, temp, humidity, wind_speed, t, wind_deg=owm_test.get_value_from_userStations()

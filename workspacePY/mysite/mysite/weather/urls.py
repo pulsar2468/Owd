@@ -28,5 +28,6 @@ urlpatterns = [
     url(r'^weather/signup_weather/$', views.signup_weather),
     url(r'^weather/DataFromWs/$', views.DataFromWs),
     url(r'^weather/realtime_from_userStations/$',views.real_time_from_UserStations),
-
+    url(r'^weather/api1_0/getSingleDataRDF/$',views.singleDataRDF),
+    url(r'^weather/api1_0/historyRDF/$',views.historyRDF),
     ]

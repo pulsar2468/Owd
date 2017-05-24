@@ -408,6 +408,7 @@ footer {
 .button_index{
     font-family: sans-serif;
     font-weight: bold;
+    font-size:12px;
 	border-radius: 10px;
     display: flex;
     align-items: center;
